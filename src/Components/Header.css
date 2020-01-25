@@ -1,0 +1,18 @@
+.header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.logo {
+  width: 20vw;
+}
+.menu-items {
+  color: white;
+}
+.menu {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+}
