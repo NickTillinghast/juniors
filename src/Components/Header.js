@@ -9,13 +9,12 @@ export default function Header() {
         <div className="logo-div">
           <img className="logo" src={juniorslogo} alt="none" />
         </div>
-        logo
       </div>
       <div className="menu">
-        <div className="menu-items">barbers</div>
-        <div className="menu-items">about</div>
-        <div className="menu-items">services</div>
-        <div className="menu-items">contact</div>
+        <div className="menu-items">About</div>
+        <div className="menu-items">Barbers</div>
+        <div className="menu-items">Services</div>
+        <div className="menu-items">Contact</div>
       </div>
     </div>
   );
