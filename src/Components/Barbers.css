@@ -11,11 +11,16 @@
 }
 .barber-image {
   padding: 30px;
-  height: 30vh;
+  height: 40vh;
 }
 .barber-text {
   font-size: 20px;
   color: rgb(212, 206, 206);
   width: 40vw;
   padding: 20px;
+}
+.barber {
+  margin-top: 20px;
+  color: rgb(173, 147, 147);
+  border: solid;
 }

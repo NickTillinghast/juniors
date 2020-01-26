@@ -6,7 +6,7 @@ export default function Barbers() {
   return (
     <div className="barbers-main">
       <div>
-        <div>
+        <div className="barber">
           <img className="barber-image" src={barbers} alt="none" />
         </div>
         <div className="barber-text">
@@ -18,7 +18,7 @@ export default function Barbers() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </div>
-        <div>
+        <div className="barber">
           {" "}
           <img className="barber-image" src={barbers} alt="none" />
         </div>
@@ -33,7 +33,7 @@ export default function Barbers() {
         </div>
       </div>
       <div>
-        <div>
+        <div className="barber">
           {" "}
           <img className="barber-image" src={barbers} alt="none" />
         </div>
@@ -46,7 +46,7 @@ export default function Barbers() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </div>
-        <div>
+        <div className="barber">
           {" "}
           <img className="barber-image" src={barbers} alt="none" />
         </div>
