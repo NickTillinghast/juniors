@@ -5,19 +5,26 @@
   justify-content: space-between;
   background-color: black;
   height: 15vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 25px;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 .logo {
   padding: 10px;
   width: 15vw;
   margin-top: 10px;
+  margin-left: 45px;
 }
 .menu-items {
   color: white;
+  text-decoration: none;
 }
 .menu {
   width: 40vw;
   display: flex;
   justify-content: space-evenly;
+}
+.menu-items:hover {
+  color: yellow;
 }

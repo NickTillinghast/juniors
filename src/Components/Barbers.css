@@ -1,0 +1,21 @@
+.barbers-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(49, 48, 45);
+  /* background-image: url("../media/wood.jpg");
+  background-attachment: fixed;
+  background-size: cover; */
+  height: 100%;
+}
+.barber-image {
+  padding: 30px;
+  height: 30vh;
+}
+.barber-text {
+  font-size: 20px;
+  color: rgb(212, 206, 206);
+  width: 40vw;
+  padding: 20px;
+}
