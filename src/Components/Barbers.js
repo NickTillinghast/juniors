@@ -6,60 +6,64 @@ export default function Barbers() {
   return (
     <div className="barbers-main">
       <div>
-        <div className="barber">
-          <img className="barber-image" src={barbers} alt="none" />
+        <div className="set-barbers">
+          <div className="barber">
+            <img className="barber-image" src={barbers} alt="none" />
+          </div>
+          <h1 className="barber-name">Name of Barber</h1>
+          <h2 className="barber-text">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </h2>
+          <div className="barber">
+            <img className="barber-image" src={barbers} alt="none" />
+          </div>
+          <h1 className="barber-name">Name of Barber</h1>
+          <h2 className="barber-text">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </h2>
         </div>
-        <h1 className="barber-name">Name of Barber</h1>
-        <h2 className="barber-text">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </h2>
-        <div className="barber">
-          <img className="barber-image" src={barbers} alt="none" />
-        </div>
-        <h1 className="barber-name">Name of Barber</h1>
-        <h2 className="barber-text">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </h2>
       </div>
       <div>
-        <div className="barber">
-          <img className="barber-image" src={barbers} alt="none" />
+        <div className="set-barbers">
+          <div className="barber">
+            <img className="barber-image" src={barbers} alt="none" />
+          </div>
+          <h1 className="barber-name">Name of Barber</h1>
+          <h2 className="barber-text">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </h2>
+          <div className="barber">
+            <img className="barber-image" src={barbers} alt="none" />
+          </div>
+          <h1 className="barber-name">Name of Barber</h1>
+          <h2 className="barber-text">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </h2>
         </div>
-        <h1 className="barber-name">Name of Barber</h1>
-        <h2 className="barber-text">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </h2>
-        <div className="barber">
-          <img className="barber-image" src={barbers} alt="none" />
-        </div>
-        <h1 className="barber-name">Name of Barber</h1>
-        <h2 className="barber-text">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </h2>
       </div>
     </div>
   );
