@@ -11,16 +11,21 @@
 }
 .barber-image {
   padding: 30px;
-  height: 40vh;
+  height: 50vh;
 }
 .barber-text {
+  box-sizing: border-box;
   font-size: 20px;
   color: rgb(212, 206, 206);
   width: 40vw;
-  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
 }
 .barber {
   margin-top: 20px;
   color: rgb(173, 147, 147);
   border: solid;
+}
+.barber-name {
+  color: rgb(143, 122, 110);
 }

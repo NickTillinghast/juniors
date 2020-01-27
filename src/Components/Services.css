@@ -3,7 +3,7 @@
   height: 80vh;
   background-image: url("../media/tools.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: local; */
   color: rgb(230, 227, 222);
   font-size: 25px;
   font-family: "PT Sans Caption", sans-serif;
@@ -14,5 +14,5 @@
   align-items: flex-end;
   justify-content: space-around;
   height: 75vh;
-  margin-right: 200px;
+  margin-right: 400px;
 }

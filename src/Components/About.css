@@ -1,6 +1,6 @@
 .about-main {
   background-color: grey;
-  height: 100vh;
+  height: 80vh;
   background-image: url("../media/scissors_blurry.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,6 @@
 .about-body {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   flex-direction: column;
   height: 50vh;
   width: 75vw;

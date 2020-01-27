@@ -1,4 +1,22 @@
 .home-main {
+  display: flex;
   height: 80vh;
+  width: 100vw;
   background-color: rgb(221, 221, 221);
 }
+video {
+  margin-left: initial;
+  background-color: black;
+  height: 100%;
+  width: 80%;
+}
+.home-sidebar {
+  width: 20%;
+  background-color: black;
+  color: rgb(146, 139, 135);
+}
+/* .home-iframe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} */

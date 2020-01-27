@@ -9,7 +9,8 @@ export default function Barbers() {
         <div className="barber">
           <img className="barber-image" src={barbers} alt="none" />
         </div>
-        <div className="barber-text">
+        <h1 className="barber-name">Name of Barber</h1>
+        <h2 className="barber-text">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -17,12 +18,12 @@ export default function Barbers() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
-        </div>
+        </h2>
         <div className="barber">
-          {" "}
           <img className="barber-image" src={barbers} alt="none" />
         </div>
-        <div className="barber-text">
+        <h1 className="barber-name">Name of Barber</h1>
+        <h2 className="barber-text">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -30,14 +31,14 @@ export default function Barbers() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
-        </div>
+        </h2>
       </div>
       <div>
         <div className="barber">
-          {" "}
           <img className="barber-image" src={barbers} alt="none" />
         </div>
-        <div className="barber-text">
+        <h1 className="barber-name">Name of Barber</h1>
+        <h2 className="barber-text">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -45,12 +46,12 @@ export default function Barbers() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
-        </div>
+        </h2>
         <div className="barber">
-          {" "}
           <img className="barber-image" src={barbers} alt="none" />
         </div>
-        <div className="barber-text">
+        <h1 className="barber-name">Name of Barber</h1>
+        <h2 className="barber-text">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -58,7 +59,7 @@ export default function Barbers() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
-        </div>
+        </h2>
       </div>
     </div>
   );

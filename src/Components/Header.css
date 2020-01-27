@@ -7,8 +7,9 @@
   height: 15vh;
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   font-family: "PT Sans Caption", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
+  width: 100vw;
 }
 .logo {
   padding: 10px;
@@ -26,5 +27,5 @@
   justify-content: space-evenly;
 }
 .menu-items:hover {
-  color: yellow;
+  color: rgb(133, 109, 94);
 }

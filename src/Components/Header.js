@@ -31,6 +31,15 @@ export default class Header extends Component {
             <Link
               onClick={() => this.setState({ navBar: !this.state.navBar })}
               className="menu-items"
+              to="/"
+            >
+              Home
+            </Link>
+          </div>
+          <div className="menu-items">
+            <Link
+              onClick={() => this.setState({ navBar: !this.state.navBar })}
+              className="menu-items"
               to="/About"
             >
               About
