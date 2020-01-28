@@ -14,8 +14,9 @@ export default function About() {
         </h2>
         <div className="about-iframe">
           <iframe
-            width="560"
-            height="315"
+            title="youtube"
+            width="600"
+            height="340"
             src="https://www.youtube.com/embed/ZzAiLtsXbOE"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

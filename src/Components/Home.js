@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../media/video.jpg";
+
 import "./Home.css";
 
 export default function Home() {
