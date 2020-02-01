@@ -23,7 +23,7 @@ export default function Barbers() {
           <div className="barber">
             <img className="barber-image" src={barbers} alt="none" />
           </div>
-          <h1 className="barber-name">Rich</h1>
+          <h1 className="barber-name">Berto</h1>
           <h2 className="barber-text">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -40,7 +40,7 @@ export default function Barbers() {
           <div className="barber">
             <img className="barber-image" src={barbers} alt="none" />
           </div>
-          <h1 className="barber-name">Berto</h1>
+          <h1 className="barber-name">Rich</h1>
           <h2 className="barber-text">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

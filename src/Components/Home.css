@@ -6,6 +6,7 @@
   width: 100%;
   background-image: url("../media//home1.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .home-sidebar {
