@@ -7,12 +7,12 @@ export default function Footer() {
   return (
     <div className="footer-main">
       <div>
-        <a href="https://www.facebook.com/juniorsbarberparlor">
+        <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">
           <FaFacebookF size={40} style={{ color: "white" }} />
         </a>
       </div>
       <div>
-        <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en">
+        <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
           <FaInstagram size={40} style={{ color: "white" }} />
         </a>
       </div>

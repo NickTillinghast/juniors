@@ -1,28 +1,37 @@
 .barbers-main {
   display: flex;
-  /* flex-direction: row; */
-  /* align-items: center; */
   justify-content: space-evenly;
   background-color: rgb(49, 48, 45);
-  /* background-image: url("../media/wood.jpg");
-  background-attachment: fixed;
-  background-size: cover; */
   height: 100%;
+  width: 100%;
 }
 .barber-image {
   padding: 20px;
-  height: 50vh;
+  height: 60vh;
 }
 .barber-text {
   box-sizing: border-box;
   font-size: 20px;
   color: rgb(212, 206, 206);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+.junior-text {
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(212, 206, 206);
   height: 260px;
-  width: 600px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
 }
 .barber {
+  width: 100%;
+  margin-top: 10px;
+  color: rgb(173, 147, 147);
+  border: solid;
+}
+.junior-pic {
+  /* width: 100%; */
   margin-top: 10px;
   color: rgb(173, 147, 147);
   border: solid;
@@ -30,9 +39,28 @@
 .barber-name {
   color: rgb(143, 122, 110);
 }
-.set-barbers {
+.junior-name {
+  color: rgb(143, 122, 110);
+}
+.set-barbers-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+.set-barbers-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.junior-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.barber-set {
+  display: flex;
   width: 100%;
 }
