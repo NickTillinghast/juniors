@@ -1,11 +1,11 @@
 .home-main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
-  height: 100vh;
-  width: 100%;
-  background-image: url("../media/juniorbanner.jpg");
-  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  /* background-image: url("../media/juniorbanner.jpg"); */
+  /* background-size: cover; */
   /* background-attachment: fixed; */
 }
 
@@ -18,4 +18,11 @@
   border: solid;
   border-color: rgba(17, 15, 15, 0.459);
   border-radius: 30px;
+}
+.homelogo {
+  width: 30vw;
+}
+.junior-image {
+  height: 100%;
+  /* width: 100%; */
 }
