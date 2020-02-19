@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Barbers from "./Components/Barbers";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
+import Landing from "./Components/Landing";
 
 export default (
   <Switch>
@@ -17,5 +18,6 @@ export default (
     <Route path="/Barbers" component={Barbers} />
     <Route path="/Services" component={Services} />
     <Route path="/Contact" component={Contact} />
+    <Route path="/Landing" component={Landing} />
   </Switch>
 );
