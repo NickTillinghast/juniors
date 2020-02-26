@@ -6,10 +6,10 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home-main">
-      <div >
+      <div className="home-logo-div">
         <img className="homelogo" src={juniorslogo} alt="none" />
       </div>
-      <div >
+      <div className="home-junior-div">
         <img className="junior-image" src={junior} alt="none" />
       </div>
       <div>

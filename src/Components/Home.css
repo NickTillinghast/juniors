@@ -8,7 +8,7 @@
   /* background-size: cover; */
   /* background-attachment: fixed; */
 }
-
+/* 
 .home-sidebar {
   margin: 0 auto;
   font-weight: 500;
@@ -18,11 +18,15 @@
   border: solid;
   border-color: rgba(17, 15, 15, 0.459);
   border-radius: 30px;
-}
+} */
 .homelogo {
+  padding-left: 10%;
+
   width: 30vw;
+}
+.home-logo-div {
+  background-color: rgb(44, 44, 44);
 }
 .junior-image {
   height: 100%;
-  /* width: 100%; */
 }
