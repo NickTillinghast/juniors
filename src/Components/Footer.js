@@ -11,6 +11,10 @@ export default function Footer() {
           <FaFacebookF size={40} style={{ color: "white" }} />
         </a>
       </div>
+      <div className="footer-info">
+        <p>location</p>
+
+      </div>
       <div>
         <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
           <FaInstagram size={40} style={{ color: "white" }} />
