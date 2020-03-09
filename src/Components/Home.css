@@ -1,8 +1,8 @@
 .home-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   /* background-image: url("../media/juniorbanner.jpg"); */
   /* background-size: cover; */
@@ -19,12 +19,54 @@
   border-color: rgba(17, 15, 15, 0.459);
   border-radius: 30px;
 } */
-.homelogo {
+/* .homelogo {
   width: 30vw;
+} */
+.home-junior-div {
+  /* padding: 20px; */
+  width: 100%;
+  background-color: black;
 }
 .home-logo-div {
   background-color: rgb(44, 44, 44);
+  width: 100%;
 }
 .junior-image {
+  /* padding: 20px; */
   height: 100%;
+}
+.home-second {
+ 
+  background-color: white;
+  /* padding: 20px; */
+}
+.header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 100vw;
+  height: 15vh;
+}
+.logo {
+  padding: 20px;
+  width: 15vw;
+  margin-left: 55%;
+}
+.menu-items {
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 7%;
+}
+.menu-items:hover {
+  color: rgb(133, 109, 94);
 }

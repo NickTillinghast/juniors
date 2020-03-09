@@ -1,19 +1,19 @@
-.header-main {
+/* .header-main {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  height: 12vh;
   font-family: "PT Sans Caption", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
   width: 100vw;
+  height: 15vh;
 }
 .logo {
-  padding: 10px;
+  padding: 20px;
   width: 15vw;
-  margin-left: 45px;
+  margin-left: 55%;
 }
 .menu-items {
   color: white;
@@ -23,7 +23,8 @@
   width: 40vw;
   display: flex;
   justify-content: space-evenly;
+  margin-right: 7%;
 }
 .menu-items:hover {
   color: rgb(133, 109, 94);
-}
+} */

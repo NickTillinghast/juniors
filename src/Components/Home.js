@@ -1,26 +1,26 @@
 import React from "react";
-import juniorslogo from "../media/juniorssquarelogo.png";
+import Header from "./Header.js";
+
+// import juniorslogo from "../media/juniorssquarelogo.png";
 import junior from "../media/juniorbanner.jpg";
 import "./Home.css";
+
 
 export default function Home() {
   return (
     <div className="home-main">
-      <div className="home-logo-div">
-        <img className="homelogo" src={juniorslogo} alt="none" />
+      <div>
+        <Header />
       </div>
       <div className="home-junior-div">
         <img className="junior-image" src={junior} alt="none" />
       </div>
-      <div>
-        {/* <div className="home-sidebar">
-          This place is awesome!! I'm religious about getting my haircut every
-          other Friday and these guys make it easy! Make sure you book an
-          appointment in advance because they book up quickly. Walk-ins are
-          accepted but not the best way to go since appointments come first. All
-          the barbers are fantastic, Karina, Berto, Rich and Junior! This is a
-          place above the rest, you will not be disappointed, I guarantee it
-        </div> */}
+      <div className="home-second">
+        <h1>Specializing in Traditional Men's Haircuts</h1>
+        <p>
+          
+          Juniors is a classic barbershop with a modern twist in Phoenix, specializing in traditional men's haircuts such as pompadours, flat tops, and executive contours. We also offer hot towel shaves, beard trims, and carry premium grooming products for all of your needs.
+        </p>
       </div>
     </div>
   );
