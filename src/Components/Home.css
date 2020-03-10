@@ -63,6 +63,11 @@
   background-color: black;
   color: rgba(255, 255, 255, 0.747);
 }
+h2 {
+  font-size: 3em;
+  font-family: serif;
+}
+
 .home-barbers {
   display: flex;
   align-items: center;
@@ -75,4 +80,18 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+}
+.about-iframe {
+  overflow: hidden;
+  /* // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
+  padding-top: 56.25%;
+  position: relative;
+}
+.about-iframe iframe {
+  border: 0;
+  height: 70%;
+  left: 14%;
+  position: absolute;
+  top: 14%;
+  width: 70%;
 }

@@ -16,6 +16,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
 }
+.set-barbers-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .junior-text {
   box-sizing: border-box;
   font-size: 20px;
@@ -60,4 +66,7 @@
   display: flex;
 
   width: 99%;
+}
+.barber-div {
+  width: 34%;
 }

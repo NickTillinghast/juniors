@@ -33,6 +33,7 @@ export default function Home() {
       </div>
       <div className="third">
         <div>
+          <h2>Funky Town Vibe Old School</h2>
           <p>we make you look better than god did</p>
           <div className="about-iframe">
             <iframe

@@ -10,8 +10,8 @@ export default function Barbers() {
   return (
     <div className="barbers-main">
       <div>
-        <div className="set-barbers-1">
-          <div>
+        <div>
+          <div className="set-barbers-0">
             <div className="junior-pics">
               <div className="junior-pic">
                 <img className="barber-image" src={junior1} alt="none" />
@@ -35,7 +35,7 @@ export default function Barbers() {
         <div>
           <div className="barber-set">
             <div className="set-barbers-2">
-              <div>
+              <div className="barber-div">
                 <div className="barber">
                   <img className="barber-image" src={berto} alt="none" />
                 </div>
@@ -44,7 +44,7 @@ export default function Barbers() {
                   "Berto is the worlds greatest barber ever to live" --Berto's mom.
               </h2>
               </div>
-              <div>
+              <div className="barber-div">
                 <div className="barber">
                   <img className="barber-image" src={rich} alt="none" />
                 </div>
@@ -53,7 +53,7 @@ export default function Barbers() {
                   "I like pizza because its round.  Juggling is cool too."
               </h2>
               </div>
-              <div>
+              <div className="barber-div">
                 <div className="barber">
                   <img className="barber-image" src={emmy} alt="none" />
                 </div>
