@@ -1,72 +1,65 @@
 .home-main {
+}
+
+.home-junior-div {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
-  /* background-image: url("../media/juniorbanner.jpg"); */
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-}
-/* 
-.home-sidebar {
-  margin: 0 auto;
-  font-weight: 500;
-  width: 50%;
-  background-color: rgba(0, 0, 0, 0.438);
-  color: rgb(255, 255, 255);
-  border: solid;
-  border-color: rgba(17, 15, 15, 0.459);
-  border-radius: 30px;
-} */
-/* .homelogo {
-  width: 30vw;
-} */
-.home-junior-div {
-  /* padding: 20px; */
-  width: 100%;
-  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../media/juniorbanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.76);
 }
 .home-logo-div {
   background-color: rgb(44, 44, 44);
   width: 100%;
 }
+.home-title {
+  width: 50vw;
+  font-size: 6em;
+  font-family: -webkit-body;
+}
+.home-main-text {
+  margin-top: 35em;
+}
+.home-title-sub {
+  font-size: 2em;
+}
+.home-main-title {
+  margin: 0 auto;
+}
 .junior-image {
-  /* padding: 20px; */
   height: 100%;
 }
 .home-second {
- 
-  background-color: white;
-  /* padding: 20px; */
-}
-.header-main {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  background-color: black;
-  font-family: "PT Sans Caption", sans-serif;
-  font-size: 18px;
-  letter-spacing: 1px;
+  justify-content: center;
   width: 100vw;
-  height: 15vh;
+  background-color: white;
+  height: 50vh;
+  color: rgba(0, 0, 0, 0.801);
 }
-.logo {
-  padding: 20px;
-  width: 15vw;
-  margin-left: 55%;
+.home-middle-text {
+  letter-spacing: 0.2em;
+  padding: 5px;
+  line-height: 1.8;
+  width: 50vw;
+  font-size: 1.2em;
 }
-.menu-items {
-  color: white;
-  text-decoration: none;
+.home-middle-text-h1 {
+  letter-spacing: 0.2em;
+  padding: 5px;
+  line-height: 1.8;
+  width: 50vw;
+  font-size: 1.7em;
 }
-.menu {
-  width: 40vw;
+.third {
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 7%;
-}
-.menu-items:hover {
-  color: rgb(133, 109, 94);
+  flex-direction: column;
+  height: 110vh;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.747);
 }

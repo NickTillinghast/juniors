@@ -18,9 +18,25 @@
   height: 50vh;
   width: 75vw;
 }
-.about-iframe {
+/* .about-iframe {
+  padding-top: 1.6em;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  width: 100vw;
+} */
+.about-iframe {
+  overflow: hidden;
+  /* // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.about-iframe iframe {
+  border: 0;
+  height: 70%;
+  left: 14%;
+  position: absolute;
+  top: 0;
+  width: 70%;
 }

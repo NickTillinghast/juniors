@@ -11,10 +11,10 @@ import Contact from "./Components/Contact";
 
 export default (
   <Switch>
+    <Route path="/Header" component={Header} />
     <Route exact path="/" component={Home} />
     <Route path="/About" component={About} />
     <Route path="/Footer" component={Footer} />
-    <Route path="/Header" component={Header} />
     <Route path="/Barbers" component={Barbers} />
     <Route path="/Services" component={Services} />
     <Route path="/Contact" component={Contact} />
