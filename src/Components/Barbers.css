@@ -19,22 +19,23 @@
 .junior-text {
   box-sizing: border-box;
   font-size: 20px;
-  color: rgb(212, 206, 206);
+  color: rgba(102, 96, 96, 0.63);
   height: 260px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
+  width: 75%;
 }
 .barber {
   width: 100%;
   margin-top: 10px;
   color: rgb(173, 147, 147);
-  border: solid;
+  /* border: solid; */
 }
 .junior-pic {
   /* width: 100%; */
   margin-top: 10px;
-  color: rgb(173, 147, 147);
-  border: solid;
+  color: rgba(78, 74, 74, 0.712);
+  /* border: solid; */
 }
 .barber-name {
   color: rgb(143, 122, 110);
@@ -42,12 +43,7 @@
 .junior-name {
   color: rgb(143, 122, 110);
 }
-.set-barbers-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
+
 .set-barbers-2 {
   display: flex;
   flex-direction: row;
