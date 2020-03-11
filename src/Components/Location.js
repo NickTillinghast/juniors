@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import './Location.css';
 
+
 class MapContainer extends Component {
     constructor(props) {
         super(props)
@@ -10,12 +11,16 @@ class MapContainer extends Component {
         }
 
     }
+
     render() {
+
         const mapStyles = {
 
             width: '50%',
             height: '50%',
         }
+        // const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+        console.log(process.env.REACT_APP_GOOGLE_API_KEY)
         return <div>
             <div className="map">
                 <div>
@@ -31,5 +36,8 @@ class MapContainer extends Component {
     }
 }
 export default GoogleApiWrapper({
-    apiKey: "TOKEN"
-})(MapContainer)
+    apiKey: (process.env.REACT_APP_GOOGLE_API_KEY)
+
+
+}
+)(MapContainer)
