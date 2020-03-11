@@ -1,10 +1,37 @@
 .map {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
+  align-items: flex-start;
+  flex-direction: row;
+  /* padding: 10%; */
+  height: 80vh;
+  width: 100vw;
+  background-image: url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1570586291/No%20Db%20images/dwtqedqlar1puqw6tcjn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.real-map {
-  position: absolute;
+.map-div {
+  width: 100vw;
+}
+.info-div {
+  width: 50%;
+}
+.map-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10%;
+  height: 60vh;
+}
+.phone-map {
+  text-decoration: none;
+  color: black;
+}
+
+.map-component {
+  /* display: flex !important;
+    flex-direction: column !important; */
+
+  width: 70% !important;
+  height: 70% !important;
 }
