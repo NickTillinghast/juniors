@@ -15,24 +15,12 @@
   font-size: 1.3em;
   color: rgb(121, 121, 121);
 }
-/* .services-list-a {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-around;
-  height: 40vh;
-}
-.services-list-b {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-around;
-  height: 40vh;
-} */
+
 .services-list {
   display: flex;
   justify-content: space-around;
   font-size: 1.7em;
+  font-family: "Josefin Slab", serif;
   width: 100vw;
   height: 30vh;
   color: rgba(70, 70, 70, 0.76);
@@ -76,6 +64,7 @@
   font-size: 1.1em;
   letter-spacing: 0.1em;
   color: rgb(109, 109, 109);
+  font-family: "Josefin Slab", serif;
 }
 .services-div {
   color: rgb(53, 53, 53);
