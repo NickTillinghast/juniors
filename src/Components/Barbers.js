@@ -32,7 +32,7 @@ export default function Barbers() {
             </h2>
           </div>
         </div>
-        <div>
+        {/* <div>
           <div className="barbers-cuts">
             <div className='images'>
               <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956201/juniors/p0t2dpvbsxphalm5serz.jpg" alt="none" />
@@ -53,7 +53,7 @@ export default function Barbers() {
               <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956349/juniors/jydvabndqrs5angb0ua3.jpg" alt="none" />
             </div>
           </div>
-        </div>
+        </div> */}
         <div>cuts pics</div>
         <div>
           <div className="barber-set">

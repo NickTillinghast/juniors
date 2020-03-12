@@ -31,6 +31,31 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="home-barbers">
+        <div className="set-barbers-1">
+          <div className="junior-third">
+            <h1 className="junior-name">Junior</h1>
+            <div className="junior-pics">
+              <div className="junior-pic">
+                <img className="barber-image" src={junior1} alt="none" />
+              </div>
+              <div className="junior-pic">
+                <img className="barber-image" src={junior2} alt="none" />
+              </div>
+            </div>
+
+            <h2 className="junior-text">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum."
+            </h2>
+          </div>
+        </div>
+      </div>
       <div className="third">
         <div>
           <h2>Funky Town Vibe Old School</h2>
@@ -44,30 +69,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="home-barbers">
-        <div className="set-barbers-1">
-          <div className="junior-third">
-            <div className="junior-pics">
-              <div className="junior-pic">
-                <img className="barber-image" src={junior1} alt="none" />
-              </div>
-              <div className="junior-pic">
-                <img className="barber-image" src={junior2} alt="none" />
-              </div>
-            </div>
-            <h1 className="junior-name">Junior</h1>
-            <h2 className="junior-text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum."
-            </h2>
-          </div>
-        </div>
-      </div>
+
     </div >
   );
 }

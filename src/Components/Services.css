@@ -1,13 +1,21 @@
 .services-main {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: initial;
   height: 80vh;
-  background-image: url("../media/tools.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../media/tools.jpg");
   background-size: cover;
-  color: rgb(230, 227, 222);
-  font-size: 25px;
-  font-family: "PT Sans Caption", sans-serif;
+  color: rgba(221, 221, 221, 0.979);
+  font-size: 40px;
+  font-family: "sans-serif";
 }
-.services-list-a {
+.house-call {
+  font-size: 1.3em;
+  color: rgb(121, 121, 121);
+}
+/* .services-list-a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -20,4 +28,55 @@
   align-items: flex-end;
   justify-content: space-around;
   height: 40vh;
+} */
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.7em;
+  width: 100vw;
+  height: 30vh;
+  color: rgba(70, 70, 70, 0.76);
+}
+.services-list-a > div {
+  padding: 10px;
+}
+.services-list-a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.services-list-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.services-list-b > div {
+  padding: 10px;
+}
+.services-box {
+  width: 50%;
+  height: 60px;
+  box-sizing: border-box;
+  border: solid;
+}
+.services-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+.appointments {
+  width: 50%;
+  padding: 30px;
+}
+.appointments-div {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  color: rgb(109, 109, 109);
+}
+.services-div {
+  color: rgb(53, 53, 53);
 }

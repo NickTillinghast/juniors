@@ -63,7 +63,7 @@ export default class Header extends Component {
               Services
             </Link>
           </div>
-          <div className="menu-items">
+          {/* <div className="menu-items">
             <Link
               onClick={() => this.setState({ navBar: !this.state.navBar })}
               className="menu-items"
@@ -71,7 +71,7 @@ export default class Header extends Component {
             >
               Contact
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     );
