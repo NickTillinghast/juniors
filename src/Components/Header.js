@@ -63,6 +63,40 @@ export default class Header extends Component {
               Services
             </Link>
           </div>
+          {/* <div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#landing-2">Work</a>
+        <a>About</a>
+        <a>Team</a>
+        <a>Contact</a>
+      </div>
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+      </script>
+      <span onclick="openNav()">
+        <div class="burger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "200px";
+        }
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      </script>
+      <div class="logo-home">
+        <img class="header-logo" src="/media/integerlogo.png" />
+      </div>
+    </div> */}
           {/* <div className="menu-items">
             <Link
               onClick={() => this.setState({ navBar: !this.state.navBar })}

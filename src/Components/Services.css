@@ -10,6 +10,16 @@
   color: rgba(221, 221, 221, 0.979);
   font-size: 40px;
   font-family: "sans-serif";
+  -webkit-animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .house-call {
   font-size: 1.3em;

@@ -40,7 +40,7 @@ export default function Services() {
               <p>We request a 24 hour notice to cancel or reschedule your appointment.
                 If you no call no show for your appointment then full cost of services are required.</p>
               <h1>Appointments</h1>
-              <p>We know that life can be busy so we welcome appointments by phone.  We also know that sometimes you get the idea of getting a cut on the fly so Juniors Barber Parlor also welcomes walk in customers.  </p>
+              <p>We know that life can be busy so we welcome appointments by phone for those who like to plan.  We also know that sometimes you get the idea of getting a cut on the fly so Juniors Barber Parlor also welcomes walk in customers.  </p>
             </div>
 
 

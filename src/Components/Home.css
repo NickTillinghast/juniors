@@ -1,6 +1,14 @@
 .home-main {
+  -webkit-animation: fadein 3s;
 }
-
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .home-junior-div {
   display: flex;
   flex-direction: column;
@@ -95,3 +103,44 @@ h2 {
   top: 14%;
   width: 70%;
 }
+
+/* 
+
+
+.sidenav {
+  float: right;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(49, 49, 49);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #999999;
+  display: block;
+  transition: 0.3s;
+  border-bottom: solid;
+  border-bottom-width: 0.5px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: rgb(134, 134, 134);
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  right: 0px;
+  border-bottom: none;
+} */
