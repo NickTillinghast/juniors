@@ -4,6 +4,16 @@
   background-color: rgb(49, 48, 45);
   height: 100%;
   width: 100%;
+  -webkit-animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .barber-image {
   padding: 20px;

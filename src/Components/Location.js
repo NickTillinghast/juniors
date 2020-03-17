@@ -21,7 +21,7 @@ class MapContainer extends Component {
 
 
         return <div>
-            <div>
+            <div className="location-main">
                 <div className="map">
                     <div>
                         <h1>The Parlor</h1>
