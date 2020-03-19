@@ -1,5 +1,4 @@
 .about-main {
-  /* background-color: grey; */
   height: 80vh;
   background-image: url("../media/scissors_blurry.jpg");
   background-size: cover;
@@ -18,16 +17,9 @@
   height: 50vh;
   width: 75vw;
 }
-/* .about-iframe {
-  padding-top: 1.6em;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-} */
+
 .about-iframe {
   overflow: hidden;
-  /* // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
   padding-top: 56.25%;
   position: relative;
 }
