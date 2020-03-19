@@ -1,7 +1,7 @@
 import React from "react";
 // import juniorslogo from "../media/juniorssquarelogo.png";
-import junior1 from "../media/junior1.jpg";
-import junior2 from "../media/junior2.jpg";
+// import junior1 from "../media/junior1.jpg";
+// import junior2 from "../media/junior2.jpg";
 import "./Home.css";
 
 
@@ -13,7 +13,7 @@ export default function Home() {
           <div className="home-main-title">
             <div className="home-main-text">
               <h1 className="home-title">Junior's Barber Parlor</h1>
-              <p className="home-title-sub">I believe in pizza and meatballs</p>
+
             </div>
           </div>
         </div>
@@ -37,10 +37,10 @@ export default function Home() {
             <h1 className="junior-name">Junior</h1>
             <div className="junior-pics">
               <div className="junior-pic">
-                <img className="barber-image" src={junior1} alt="none" />
+                <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590652/juniors/nwkzuve0xar5mlzzejje.jpg" alt="none" />
               </div>
               <div className="junior-pic">
-                <img className="barber-image" src={junior2} alt="none" />
+                <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590661/juniors/ireeuaprkby3ovaynzdm.jpg" alt="none" />
               </div>
             </div>
 
@@ -58,14 +58,14 @@ export default function Home() {
       </div>
       <div className="third">
         <div>
-          <h2>Funky Town Vibe Old School</h2>
-          <p>we make you look better than god did</p>
+          <h2 className="iframe-txt">Funky Town Vibe Old School</h2>
+          <p className="iframe-txt-p">we make you look better than god did</p>
           <div className="about-iframe">
             <iframe
               title="youtube"
               src="https://www.youtube.com/embed/ZzAiLtsXbOE"
               alt="none"
-            /> <p>we make you look better than god did</p>
+            /> <p className="iframe-txt-p">we make you look better than god did</p>
           </div>
         </div>
       </div>

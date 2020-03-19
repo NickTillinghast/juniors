@@ -54,7 +54,7 @@
   padding: 10px;
 }
 .services-box {
-  width: 50%;
+  width: 75%;
   height: 60px;
   box-sizing: border-box;
   border: solid;
@@ -80,4 +80,8 @@
 }
 .services-div {
   color: rgb(53, 53, 53);
+}
+.instagram {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.822);
 }

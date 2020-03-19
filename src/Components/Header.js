@@ -36,15 +36,7 @@ export default class Header extends Component {
               Home
             </Link>
           </div>
-          <div className="menu-items">
-            <Link
-              onClick={() => this.setState({ navBar: !this.state.navBar })}
-              className="menu-items"
-              to="/Location"
-            >
-              Location
-            </Link>
-          </div>
+
           <div className="menu-items">
             <Link
               onClick={() => this.setState({ navBar: !this.state.navBar })}
@@ -61,6 +53,15 @@ export default class Header extends Component {
               to="/Services"
             >
               Services
+            </Link>
+          </div>
+          <div className="menu-items">
+            <Link
+              onClick={() => this.setState({ navBar: !this.state.navBar })}
+              className="menu-items"
+              to="/Location"
+            >
+              Location
             </Link>
           </div>
           {/* <div>

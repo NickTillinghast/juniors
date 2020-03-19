@@ -8,7 +8,9 @@ export default function Services() {
         <div className="services-inner">
           <h1>Services</h1>
           <p>We stand by our quality of work</p>
-          <p className="services-box">check our cuts</p>
+
+          <p className="services-box"><a className="instagram" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">check out our cuts</a></p>
+
         </div>
       </div>
       <div>

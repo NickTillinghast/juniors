@@ -10,16 +10,27 @@
     opacity: 1;
   }
 }
+.location-text > h1 {
+  color: rgb(226, 226, 226);
+  font-size: 3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.location-text > p {
+  color: rgb(226, 226, 226);
+  font-size: 1.4em;
+}
 
 .map {
   display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  /* padding: 10%; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   height: 80vh;
   width: 100vw;
-  background-image: url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1570586291/No%20Db%20images/dwtqedqlar1puqw6tcjn.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590675/juniors/sv6rihwutrjyvnqeiidm.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .map-div {

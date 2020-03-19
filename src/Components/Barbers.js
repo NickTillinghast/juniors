@@ -6,10 +6,23 @@ import junior1 from "../media/junior1.jpg";
 import junior2 from "../media/junior2.jpg";
 import "./Barbers.css";
 
+
 export default function Barbers() {
   return (
     <div className="barbers-main">
       <div>
+        <div className="barber-land">
+          <div className="barbers-first">
+            <div>
+              <div className="barbers-inner">
+                <h1 className="barb-h1">We Are Family</h1>
+                <h2 className="barb-h2">I Hire only the Best</h2>
+
+                <p className="barbers-box"><a className="instagram" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">check out our cuts</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div>
           <div className="set-barbers-0">
             <div className="junior-pics">
@@ -32,29 +45,6 @@ export default function Barbers() {
             </h2>
           </div>
         </div>
-        {/* <div>
-          <div className="barbers-cuts">
-            <div className='images'>
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956201/juniors/p0t2dpvbsxphalm5serz.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956201/juniors/ydiwcdupckkbzr2lbfhq.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956201/juniors/chs1nimr0nprbrll0fae.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/zbh7xg876kt5jtt4uu3s.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/mw3nf1itnypg4l5qyis3.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956201/juniors/x3hbiz8c03kun0pe2jwr.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/i0oogcy5wj45nsjvvqax.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/jmsfeornldlo3pwbu2n0.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/wvervdumlvh5krnty6n3.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/yubzc3bsuutf0ta6exxi.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956202/juniors/cowtyss6htwhz17uxnp1.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956349/juniors/wywwkica94qrv99xbxz7.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956349/juniors/hn9pm9jpitahbvyejjan.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956349/juniors/vvbuyub8jgfxmcbqhdxh.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956349/juniors/voadjwd5sozwefxobwfq.jpg" alt="none" />
-              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1583956349/juniors/jydvabndqrs5angb0ua3.jpg" alt="none" />
-            </div>
-          </div>
-        </div> */}
-        <div>cuts pics</div>
         <div>
           <div className="barber-set">
             <div className="set-barbers-2">
@@ -85,6 +75,14 @@ export default function Barbers() {
                   "I come from LA to represent beast mode all ovet these phoenix ladies."
                 </h2>
               </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="barbers-cuts">
+            <div className='images'>
+              <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584593549/juniors/jxfnzay4mavyjhoqbjsq.jpg" alt="none" />
+
             </div>
           </div>
         </div>
