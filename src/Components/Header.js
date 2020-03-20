@@ -16,6 +16,26 @@ export default class Header extends Component {
     return (
       <div className="header-main">
         <div>
+
+          {/* <div className="myTopnav">
+              <div
+                onClick={() => this.setState({ navBar: !this.state.navBar })}
+                className="burger"
+              >
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+              </div>
+            </div>
+            <div
+              className={
+                this.state.navBar ? "navbar-toggle " : "navbar-toggle hidden"
+              }
+              id="topnav"
+            ></div> */}
+
+
+
           <div className="logo-div">
             <Link
               onClick={() => this.setState({ navBar: !this.state.navBar })}
@@ -64,6 +84,7 @@ export default class Header extends Component {
               Location
             </Link>
           </div>
+
           {/* <div>
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"

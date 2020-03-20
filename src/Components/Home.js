@@ -1,7 +1,4 @@
 import React from "react";
-// import juniorslogo from "../media/juniorssquarelogo.png";
-// import junior1 from "../media/junior1.jpg";
-// import junior2 from "../media/junior2.jpg";
 import "./Home.css";
 
 

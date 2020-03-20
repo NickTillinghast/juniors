@@ -9,7 +9,7 @@ export default function Services() {
           <h1>Services</h1>
           <p>We stand by our quality of work</p>
 
-          <p className="services-box"><a className="instagram" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">check out our cuts</a></p>
+          <p className="services-box"><a className="services-phone" href="tel:6022740000" >Call and Book With Us</a></p>
 
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function Footer() {
       </div>
       <div className="footer-info">
         <h3>book and appointment</h3>
-        <p>phone: <a className="phone" href="tel:6024866621" >602 555 5555</a></p>
+        <p>phone: <a className="phone" href="tel:6022740000" >(602) 274-0000</a></p>
       </div>
       <div>
         <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">
