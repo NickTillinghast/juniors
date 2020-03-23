@@ -1,4 +1,4 @@
-.header-main {
+.headerMain {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,4 +27,78 @@
 }
 .menu-items:hover {
   color: rgb(133, 109, 94);
+}
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.burger div {
+  display: none;
+}
+@media (max-width: 925px) {
+  .logo-div {
+    width: 55vw;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .navbar-toggle {
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    right: 0px;
+    height: 100vh;
+    background-color: rgb(73, 73, 73);
+    width: 40%;
+    margin-top: 60px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .menu-items {
+    float: right;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 2px;
+    letter-spacing: 3px;
+    margin: 15px;
+  }
+  .tabs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .burger div {
+    width: 25px;
+    height: 4px;
+    background-color: rgb(207, 207, 207);
+    margin: 5px;
+    display: block;
+  }
+  .logo {
+    width: 55%;
+    padding: 1px;
+    margin-left: 0px;
+  }
+
+  .burger {
+    margin: 75px;
+  }
+  .menu {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-right: 7%;
+  }
 }
