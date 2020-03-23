@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div className="third">
         <div>
-          <h2 className="iframe-txt">Funky Town Vibe Old School</h2>
+          <h2 className="iframe-txt">Funky Old School Vibe</h2>
           <div className="iframe-txt-p">
             <div>
               <p>My team and I are very greatful for the continuous support!  Come by the shop, get a cut!  Say Whats up or just hang out...  We're a dope shop, we don't like negative energy, that's why our shops vibe is always on point!  ... Jr...</p>
@@ -62,7 +62,7 @@ export default function Home() {
               src="https://www.youtube.com/embed/ZzAiLtsXbOE"
               alt="none"
 
-            /> <p className="iframe-txt-p">we make you look better than god did</p>
+            /> <p className="iframe-txt-p">It's not just Great cuts its an experience</p>
           </div>
         </div>
       </div>

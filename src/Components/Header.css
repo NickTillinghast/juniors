@@ -8,7 +8,7 @@
   font-size: 18px;
   letter-spacing: 1px;
   width: 100vw;
-  height: 12vh;
+  height: 15vh;
 }
 .logo {
   padding: 20px;
@@ -30,7 +30,7 @@
 }
 .navbar-toggle {
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 20px;
 }
 .burger div {

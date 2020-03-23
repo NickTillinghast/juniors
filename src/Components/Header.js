@@ -70,42 +70,44 @@ export default class Header extends Component {
                 id="topnav"
               >
                 <ul className="tabs">
-                  <div className="menu">
-                    <div className="menu-items">
-                      <Link
-                        onClick={() => this.setState({ navBar: !this.state.navBar })}
-                        className="menu-items"
-                        to="/"
-                      >
-                        Home
+                  <div>
+                    <div className="menu">
+                      <div className="menu-items">
+                        <Link
+                          onClick={() => this.setState({ navBar: !this.state.navBar })}
+                          className="menu-items"
+                          to="/"
+                        >
+                          Home
                     </Link>
-                    </div>
-                    <div className="menu-items">
-                      <Link
-                        onClick={() => this.setState({ navBar: !this.state.navBar })}
-                        className="menu-items"
-                        to="/Barbers"
-                      >
-                        Barbers
+                      </div>
+                      <div className="menu-items">
+                        <Link
+                          onClick={() => this.setState({ navBar: !this.state.navBar })}
+                          className="menu-items"
+                          to="/Barbers"
+                        >
+                          Barbers
                     </Link>
-                    </div>
-                    <div className="menu-items">
-                      <Link
-                        onClick={() => this.setState({ navBar: !this.state.navBar })}
-                        className="menu-items"
-                        to="/Services"
-                      >
-                        Services
+                      </div>
+                      <div className="menu-items">
+                        <Link
+                          onClick={() => this.setState({ navBar: !this.state.navBar })}
+                          className="menu-items"
+                          to="/Services"
+                        >
+                          Services
                     </Link>
-                    </div>
-                    <div className="menu-items">
-                      <Link
-                        onClick={() => this.setState({ navBar: !this.state.navBar })}
-                        className="menu-items"
-                        to="/Location"
-                      >
-                        Location
+                      </div>
+                      <div className="menu-items">
+                        <Link
+                          onClick={() => this.setState({ navBar: !this.state.navBar })}
+                          className="menu-items"
+                          to="/Location"
+                        >
+                          Location
                     </Link>
+                      </div>
                     </div>
                   </div>
                 </ul>
