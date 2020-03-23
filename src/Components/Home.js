@@ -10,7 +10,7 @@ export default function Home() {
           <div className="home-main-title">
             <div className="home-main-text">
               <h1 className="home-title">Junior's Barber Parlor</h1>
-
+              <h3 className="home-title-2">since 2016</h3>
             </div>
           </div>
         </div>
@@ -42,13 +42,8 @@ export default function Home() {
             </div>
 
             <h2 className="junior-text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum."
+              <p>When I first walked into a barbershop at a young age the atmosphere instantly grabbed my attention.  Growing up I wasn't always able to get a haircut, but this allowed me to cherish the moments spent in the barbershop with my father and brothers.  It also motivated me to learn how to cut my own hair.  Some people decide they want to go to a barber school and others just have it in them and are self taught.  I knew I wanted to cut hair and I went for it.</p>
+              <p>2016 was the year I opened Juniors Barber Parlor, when that happened I really had no idea what I was doing but I just knew it was my time.  I knew what I envisioned could come to reality, hard work pays off.  Now going on 4 years I'm glad I took that step forward, I love what I do and I'm proud of what I've done for my family and I.  My shop consist of great cuts great customer service and great professionalism.</p>
             </h2>
           </div>
         </div>
@@ -56,7 +51,11 @@ export default function Home() {
       <div className="third">
         <div>
           <h2 className="iframe-txt">Funky Town Vibe Old School</h2>
-          <p className="iframe-txt-p">we make you look better than god did</p>
+          <div className="iframe-txt-p">
+            <div>
+              <p>My team and I are very greatful for the continuous support!  Come by the shop, get a cut!  Say Whats up or just hang out...  We're a dope shop, we don't like negative energy, that's why our shops vibe is always on point!  ... Jr...</p>
+            </div>
+          </div>
           <div className="about-iframe">
             <iframe
               title="youtube"
