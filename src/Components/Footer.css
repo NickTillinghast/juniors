@@ -58,3 +58,8 @@
     width: 90%;
   }
 }
+@media (max-width: 320px) {
+  .footer-main {
+    height: 110vh;
+  }
+}

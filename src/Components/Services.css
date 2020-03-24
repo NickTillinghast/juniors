@@ -96,3 +96,50 @@
   text-decoration: none;
   color: rgba(255, 255, 255, 0.822);
 }
+@media (max-width: 1024px) {
+  .services-main {
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .services-main {
+    height: 60vh;
+  }
+}
+@media (max-width: 414px) {
+  .services-inner {
+    font-size: 0.5em;
+  }
+  .services-main {
+    height: 48vh;
+  }
+  .services-list {
+    font-size: 1em;
+  }
+  .house-call {
+    font-size: 1em;
+  }
+  .appointments-div {
+    font-size: 1em;
+  }
+  .appointments > h1 {
+    font-size: 1.3em;
+  }
+  .appointments {
+    width: 75%;
+  }
+}
+@media (max-width: 375px) {
+  .services-list {
+    padding: 1em;
+  }
+}
+@media (max-width: 320px) {
+  .services-inner {
+    margin-top: 0%;
+    font-size: 0.4em;
+  }
+  .house-call {
+    margin-top: 6em;
+  }
+}

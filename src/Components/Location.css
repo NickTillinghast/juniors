@@ -61,3 +61,32 @@
   width: 70% !important;
   height: 70% !important;
 }
+@media (max-width: 1024px) {
+  .map-component {
+    width: 85% !important;
+  }
+}
+@media (max-width: 414px) {
+  .map-info {
+    flex-direction: column-reverse;
+    height: 100vh;
+    margin-top: 0%;
+    font-size: 0.7em;
+  }
+  .map-component {
+    margin-left: 10%;
+    width: 110% !important;
+  }
+  .info-div {
+    width: 100%;
+    margin-top: 20em;
+  }
+}
+@media (max-width: 320px) {
+  .location-text > h1 {
+    font-size: 1.2em;
+  }
+  .location-text > p {
+    font-size: 0.8em;
+  }
+}

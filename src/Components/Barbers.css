@@ -218,7 +218,16 @@
   }
 }
 @media (max-width: 375px) {
+  .junior-text {
+    padding: 0px;
+  }
+  .barber-text {
+    font-size: 0.3em;
+  }
 }
 
 @media (max-width: 320px) {
+  .junior-text {
+    height: 30vh;
+  }
 }
