@@ -1,9 +1,5 @@
 import React from "react";
-import rich from "../media/rich.jpg";
-import berto from "../media/berto.jpg";
-import emmy from "../media/emmy.jpg";
-import junior1 from "../media/junior1.jpg";
-import junior2 from "../media/junior2.jpg";
+
 import "./Barbers.css";
 
 
@@ -27,10 +23,10 @@ export default function Barbers() {
           <div className="set-barbers-0">
             <div className="junior-pics">
               <div className="junior-pic">
-                <img className="barber-image" src={junior1} alt="none" />
+                <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/a98jm8dcd0ba9khlgc0k.jpg" alt="none" />
               </div>
               <div className="junior-pic">
-                <img className="barber-image" src={junior2} alt="none" />
+                <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082716/juniors/bz41cme2i7sswttf3mpz.jpg" alt="none" />
               </div>
             </div>
             <h1 className="junior-name">Junior</h1>
@@ -45,7 +41,7 @@ export default function Barbers() {
             <div className="set-barbers-2">
               <div className="barber-div">
                 <div className="barber">
-                  <img className="barber-image" src={berto} alt="none" />
+                  <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/nbj7p8w3wilmnduda6uy.jpg" alt="none" />
                 </div>
                 <h1 className="barber-name">Berto</h1>
                 <h2 className="barber-text">
@@ -54,7 +50,7 @@ export default function Barbers() {
               </div>
               <div className="barber-div">
                 <div className="barber">
-                  <img className="barber-image" src={rich} alt="none" />
+                  <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082715/juniors/syrbsifmfjdtx8qm6myi.jpg" alt="none" />
                 </div>
                 <h1 className="barber-name">Rich</h1>
                 <h2 className="barber-text">
@@ -63,7 +59,7 @@ export default function Barbers() {
               </div>
               <div className="barber-div">
                 <div className="barber">
-                  <img className="barber-image" src={emmy} alt="none" />
+                  <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/vzj4b8vfircqanfswyl5.jpg" alt="none" />
                 </div>
                 <h1 className="barber-name">Emmy</h1>
                 <h2 className="barber-text">

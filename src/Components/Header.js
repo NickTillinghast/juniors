@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import juniorslogo from "../media/juniorslogo.png";
+
 import "./Header.css";
 import { Link } from "react-router-dom";
 
@@ -47,7 +47,7 @@ export default class Header extends Component {
                 className="menu-items"
                 to="/"
               >
-                <img className="logo" src={juniorslogo} alt="none" />
+                <img className="logo" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082702/juniors/yiqb0xw6owx1uspyprnu.png" alt="none" />
               </Link>
             </div>
           </div>
