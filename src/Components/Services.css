@@ -9,7 +9,7 @@
   background-size: cover;
   color: rgba(221, 221, 221, 0.979);
   font-size: 40px;
-  font-family: "sans-serif";
+  font-family: "Ledger", serif;
   -webkit-animation: fadein 1s;
 }
 
@@ -26,13 +26,13 @@
   color: rgb(121, 121, 121);
 }
 .services-inner {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ledger", serif;
 }
 .services-list {
   display: flex;
   justify-content: space-around;
   font-size: 1.7em;
-  font-family: "Josefin Slab", serif;
+  font-family: "Ledger", serif;
   width: 100vw;
   height: 30vh;
   color: rgba(70, 70, 70, 0.76);
@@ -54,10 +54,13 @@
   padding: 10px;
 }
 .services-box {
-  width: 75%;
-  height: 60px;
+  width: 80%;
+  height: 65px;
   box-sizing: border-box;
   border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .services-inner {
   display: flex;
@@ -76,10 +79,11 @@
   font-size: 1.1em;
   letter-spacing: 0.1em;
   color: rgb(109, 109, 109);
-  font-family: "Josefin Slab", serif;
+  font-family: "Ledger", serif;
 }
 .services-div {
   color: rgb(53, 53, 53);
+  font-family: "Ledger", serif;
 }
 .instagram {
   text-decoration: none;

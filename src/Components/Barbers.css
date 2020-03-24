@@ -4,7 +4,7 @@
   background-color: rgb(49, 48, 45);
   height: 100%;
   width: 100%;
-  -webkit-animation: fadein 1s;
+  -webkit-animation: fadein 0.5s;
 }
 
 @keyframes fadein {
@@ -29,7 +29,7 @@
   box-sizing: border-box;
   font-size: 20px;
   color: rgb(148, 148, 148);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Ledger", serif;
   padding: 5px;
 }
 .set-barbers-0 {
@@ -44,7 +44,7 @@
   font-size: 20px;
   color: rgba(102, 96, 96, 0.63);
   height: 260px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Ledger", serif;
   padding: 5px;
   width: 75%;
   /* font-family: "Josefin Slab", serif; */
@@ -63,9 +63,11 @@
 }
 .barber-name {
   color: rgb(63, 54, 50);
+  font-family: "Ledger", serif;
 }
 .junior-name {
   color: rgba(71, 71, 71, 0.767);
+  font-family: "Ledger", serif;
 }
 
 .set-barbers-2 {
@@ -117,10 +119,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 50%;
   color: white;
   font-size: 30px;
-  font-family: "sans-serif";
 }
 .barbers-box {
   width: 75%;
@@ -129,15 +130,16 @@
   border: solid;
   color: white;
   font-size: 1.2em;
+  font-family: "Ledger", serif;
 }
 .instagram:hover {
   color: rgb(192, 169, 142);
 }
 .barb-h2 {
   font-size: 1em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ledger", serif;
 }
 .barb-h1 {
   font-size: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ledger", serif;
 }

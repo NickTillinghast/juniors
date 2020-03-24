@@ -22,7 +22,7 @@ export default function Home() {
               <h1 className="home-middle-text-h1">Specializing in Traditional Men's Haircuts</h1>
               <p className="home-middle-text">
 
-                Juniors is a classic barbershop with a modern twist in Phoenix, specializing in traditional men's haircuts such as pompadours, flat tops, and executive contours. We also offer hot towel shaves, beard trims, and carry premium grooming products for all of your needs.
+                Juniors is a classic barbershop midtown in Phoenix, specializing in traditional men's haircuts such as pompadours, flat tops, and executive contours. We also offer hot towel shaves, beard trims, and carry premium grooming products for all of your needs.
         </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Home() {
           <h2 className="iframe-txt">Funky Old School Vibe</h2>
           <div className="iframe-txt-p">
             <div>
-              <p>My team and I are very greatful for the continuous support!  Come by the shop, get a cut!  Say Whats up or just hang out...  We're a dope shop, we don't like negative energy, that's why our shops vibe is always on point!  ... Jr...</p>
+              <p className="iframe-inner-txt">My team and I are very greatful for the continuous support!  Come by the shop, get a cut!  Say Whats up or just hang out...  We're a dope shop, we don't like negative energy, that's why our shops vibe is always on point!  ... Jr...</p>
             </div>
           </div>
           <div className="about-iframe">
@@ -62,7 +62,7 @@ export default function Home() {
               src="https://www.youtube.com/embed/ZzAiLtsXbOE"
               alt="none"
 
-            /> <p className="iframe-txt-p">It's not just Great cuts its an experience</p>
+            /> <p className="iframe-inner-txt2">It's not just Great cuts its a Great experience</p>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@
   flex-direction: column;
   /* height: 120%; */
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("../media/juniorbanner.jpg");
   background-size: cover;
@@ -30,11 +30,12 @@
 .home-title {
   width: 50vw;
   font-size: 5em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ledger", serif;
 }
 .home-title-2 {
   font-size: 1.7em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ledger", serif;
+  margin-bottom: 20px;
 }
 .home-main-text {
   margin-top: 24em;
@@ -66,7 +67,7 @@
   line-height: 1.8;
   width: 50vw;
   font-size: 1.2em;
-  font-family: "Josefin Slab", serif;
+  font-family: "Ledger", serif;
 }
 .home-middle-text-h1 {
   letter-spacing: 0.2em;
@@ -74,12 +75,11 @@
   line-height: 1.8;
   width: 50vw;
   font-size: 1.7em;
-  font-family: "Josefin Slab", serif;
+  font-family: "Ledger", serif;
 }
 .third {
   display: flex;
   flex-direction: column;
-  /* height: 110vh; */
   background-color: rgb(253, 253, 253);
   color: rgba(255, 255, 255, 0.747);
 }
@@ -108,9 +108,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 }
 .about-iframe {
   overflow: hidden;
@@ -127,5 +127,81 @@
   width: 70%;
 }
 .junior-text > p {
-  font-family: "Josefin Slab", serif;
+  font-family: "Ledger", serif;
+  letter-spacing: 0.07em;
+  color: rgb(112, 112, 112);
+}
+.iframe-inner-txt {
+  font-size: 1em;
+  color: black;
+  font-family: "Ledger", serif;
+}
+.iframe-inner-txt2 {
+  font-size: 2em;
+  color: black;
+  font-family: "Ledger", serif;
+  margin-bottom: 50px;
+}
+@media (max-width: 325px) {
+  .home-junior-div {
+    background-size: auto;
+  }
+  .home-junior-div {
+    height: 100vh;
+    background-position: cover;
+  }
+  .home-middle-text-h1 {
+    letter-spacing: 0em;
+    padding: 0px;
+    line-height: 1.8;
+    width: 80vw;
+    font-size: 1.7em;
+  }
+  .home-second {
+    height: 120vh;
+  }
+  .home-title {
+    width: 50vw;
+    font-size: 2em;
+  }
+  .home-main-text {
+    margin-top: 20em;
+  }
+  .home-middle-text {
+    letter-spacing: 0.2em;
+    padding: 5px;
+    line-height: 1.4;
+    width: 80vw;
+    font-size: 1.2em;
+    font-family: "Ledger", serif;
+  }
+  .junior-pics {
+    flex-direction: column;
+  }
+  .shop-image {
+    width: 80vw;
+  }
+  .junior-third {
+    height: 140vh;
+  }
+  .junior-text {
+    font-size: 14px;
+    width: 85%;
+  }
+  .third {
+    height: 110vh;
+  }
+  .iframe-txt-p {
+    width: 85%;
+    font-size: 1em;
+  }
+  .about-iframe {
+    padding-top: 0%;
+  }
+  .about-iframe iframe {
+    position: initial;
+  }
+  .iframe-inner-txt2 {
+    font-size: 1em;
+  }
 }

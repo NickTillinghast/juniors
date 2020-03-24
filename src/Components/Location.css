@@ -1,5 +1,5 @@
 .location-main {
-  -webkit-animation: fadein 1s;
+  -webkit-animation: fadein 0.5s;
 }
 
 @keyframes fadein {
@@ -13,11 +13,12 @@
 .location-text > h1 {
   color: rgb(226, 226, 226);
   font-size: 3em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ledger", serif;
 }
 .location-text > p {
   color: rgb(226, 226, 226);
   font-size: 1.4em;
+  font-family: "Ledger", serif;
 }
 
 .map {
@@ -46,6 +47,7 @@
   justify-content: space-around;
   margin-top: 10%;
   height: 60vh;
+  font-family: "Ledger", serif;
 }
 .phone-map {
   text-decoration: none;

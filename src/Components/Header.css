@@ -11,7 +11,8 @@
   height: 15vh;
 }
 .logo {
-  padding: 20px;
+  size: 20px;
+  /* padding: 20px; */
   width: 15vw;
   margin-left: 55%;
 }
@@ -47,11 +48,11 @@
     width: 100vw;
   }
   .navbar-toggle {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     align-items: flex-start;
     right: 0px;
-    height: 100vh;
+    height: 85vh;
     background-color: rgb(73, 73, 73);
     width: 40%;
     margin-top: 60px;
@@ -100,5 +101,11 @@
     align-items: flex-start;
     justify-content: space-evenly;
     margin-right: 7%;
+  }
+}
+@media (max-width: 325px) {
+  .logo {
+    width: 48vw;
+    margin-top: inherit;
   }
 }
