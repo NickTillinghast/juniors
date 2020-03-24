@@ -12,7 +12,6 @@
 .home-junior-div {
   display: flex;
   flex-direction: column;
-  /* height: 120%; */
   width: 100%;
   height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
@@ -99,16 +98,12 @@
 }
 
 .home-barbers {
-  /* display: flex;
-  align-items: center;
-  flex-direction: column; */
   background-color: rgba(225, 234, 235, 0.89);
 }
 .junior-third {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* justify-content: center; */
   width: 100%;
   height: 120vh;
 }
@@ -142,31 +137,44 @@
   font-family: "Ledger", serif;
   margin-bottom: 50px;
 }
+.parlor-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 93vw;
+}
+
 @media (max-width: 1024px) {
   .home-title {
     margin-top: 45vh;
     width: 65vw;
   }
   .home-middle-text-h1 {
-    font-size: 2.5em;
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
     width: 75vw;
+    line-height: none;
   }
   .home-middle-text {
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 75vw;
+    letter-spacing: 0.1em;
   }
   .junior-third {
-    height: 116vh;
+    height: 120vh;
   }
   .junior-text > p {
-    font-size: 27px;
+    font-size: 1em;
   }
   .iframe-txt {
-    font-size: 4em;
+    font-size: 1.8em;
   }
   .iframe-inner-txt {
-    font-size: 1.7em;
+    font-size: 1.4em;
     width: 85vw;
+  }
+  .iframe-inner-txt2 {
+    font-size: 1.4em;
   }
 }
 @media (max-width: 768px) {
@@ -213,8 +221,18 @@
     font-size: 1em;
   }
 }
-
-@media (max-width: 325px) {
+@media (max-width: 375px) {
+  .home-second {
+    height: 80vh;
+  }
+  .junior-text > p {
+    font-size: 0.7em;
+  }
+  .junior-third {
+    height: 165vh;
+  }
+}
+@media (max-width: 320px) {
   .home-junior-div {
     background-size: auto;
   }
@@ -230,7 +248,7 @@
     font-size: 1.7em;
   }
   .home-second {
-    height: 120vh;
+    height: 95vh;
   }
   .home-title {
     width: 50vw;
@@ -244,7 +262,7 @@
     padding: 5px;
     line-height: 1.4;
     width: 80vw;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: "Ledger", serif;
   }
   .junior-pics {
@@ -254,18 +272,21 @@
     width: 80vw;
   }
   .junior-third {
-    height: 140vh;
+    height: 150vh;
   }
-  .junior-text {
-    font-size: 14px;
-    width: 85%;
+  .junior-text > p {
+    font-size: 0.5em;
+    width: 90%;
   }
   .third {
-    height: 110vh;
+    height: 65vh;
   }
   .iframe-txt-p {
     width: 85%;
     font-size: 1em;
+  }
+  .iframe-txt {
+    font-size: 1.2em;
   }
   .about-iframe {
     padding-top: 0%;
@@ -274,6 +295,12 @@
     position: initial;
   }
   .iframe-inner-txt2 {
+    font-size: 0.7em;
+  }
+  .iframe-inner-txt {
+    font-size: 0.7em;
+  }
+  .junior-name {
     font-size: 1em;
   }
 }

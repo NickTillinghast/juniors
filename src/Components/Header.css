@@ -12,7 +12,6 @@
 }
 .logo {
   size: 20px;
-  /* padding: 20px; */
   width: 15vw;
   margin-left: 55%;
 }
@@ -27,7 +26,7 @@
   margin-right: 7%;
 }
 .menu-items:hover {
-  color: rgb(133, 109, 94);
+  color: rgb(153, 0, 0);
 }
 .navbar-toggle {
   position: absolute;
@@ -39,14 +38,14 @@
 }
 @media (max-width: 1024px) {
   .headerMain {
-    height: 10vh;
+    height: 15vh;
   }
   .navbar-toggle {
     right: 13%;
   }
   .menu-items {
     padding: 12px;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .logo {
     width: 21vw;
@@ -68,7 +67,8 @@
     /* position: fixed; */
     display: flex;
     align-items: flex-start;
-    right: 0px;
+
+    right: 0;
     height: 85vh;
     background-color: rgb(73, 73, 73);
     width: 40%;
@@ -132,10 +132,18 @@
   .logo-div {
     margin-top: 15px;
   }
+  .navbar-toggle {
+    width: 65%;
+  }
 }
-@media (max-width: 325px) {
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
   .logo {
     width: 48vw;
     margin-top: inherit;
+  }
+  .menu-items {
+    font-size: 13px;
   }
 }

@@ -15,6 +15,7 @@ export default function Footer() {
       <div className="footer-info">
         <h3>book and appointment</h3>
         <p>phone: <a className="phone" href="tel:6022740000" >(602) 274-0000</a></p>
+        <a className="phone" href="https://www.yelp.com/biz/juniors-barber-parlor-phoenix" target="blank">Check out our awesome reviews on yelp</a>
       </div>
       <div>
         <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">

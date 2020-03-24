@@ -15,18 +15,20 @@
   color: white;
   text-decoration: none;
 }
+
 .phone {
   font-weight: 800;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.822);
 }
 .phone:hover {
-  color: rgba(184, 31, 31, 0.822);
+  color: #b81f1fd2;
 }
 @media (max-width: 1024px) {
   .footer-main {
     justify-content: space-evenly;
-    font-size: 1.3em;
+    font-size: 1em;
+    height: 50vh;
   }
 }
 @media (max-width: 768px) {

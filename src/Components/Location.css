@@ -53,6 +53,9 @@
   text-decoration: none;
   color: black;
 }
+.phone-map:hover {
+  color: rgb(173, 0, 0);
+}
 
 .map-component {
   width: 70% !important;

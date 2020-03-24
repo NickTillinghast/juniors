@@ -3,10 +3,12 @@
   align-items: center;
   flex-direction: column;
   justify-content: initial;
-  height: 80vh;
+  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("../media/tools.jpg");
   background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
   color: rgba(221, 221, 221, 0.979);
   font-size: 40px;
   font-family: "Ledger", serif;
