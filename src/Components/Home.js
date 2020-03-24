@@ -32,7 +32,7 @@ export default function Home() {
         <div className="set-barbers-1">
           <div className="junior-third">
             <h1 className="junior-name">Junior</h1>
-            <div className="junior-pics">
+            <div>
               <div className="junior-pic">
                 <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590652/juniors/nwkzuve0xar5mlzzejje.jpg" alt="none" />
               </div>

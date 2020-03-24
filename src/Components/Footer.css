@@ -23,6 +23,29 @@
 .phone:hover {
   color: rgba(184, 31, 31, 0.822);
 }
+@media (max-width: 1024px) {
+  .footer-main {
+    justify-content: space-evenly;
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 768px) {
+  .footer-main {
+    height: 50vh;
+    font-size: 1em;
+  }
+}
+@media (max-width: 414px) {
+  .footer-main {
+    flex-direction: column;
+    font-size: 0.8em;
+    height: 100vh;
+  }
+  .footer-info {
+    width: 20em;
+  }
+}
+
 @media (max-width: 325px) {
   .footer-main {
     flex-direction: column;

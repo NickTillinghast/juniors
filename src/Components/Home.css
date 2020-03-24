@@ -99,9 +99,9 @@
 }
 
 .home-barbers {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   background-color: rgba(225, 234, 235, 0.89);
 }
 .junior-third {
@@ -142,6 +142,78 @@
   font-family: "Ledger", serif;
   margin-bottom: 50px;
 }
+@media (max-width: 1024px) {
+  .home-title {
+    margin-top: 45vh;
+    width: 65vw;
+  }
+  .home-middle-text-h1 {
+    font-size: 2.5em;
+    width: 75vw;
+  }
+  .home-middle-text {
+    font-size: 1.4em;
+    width: 75vw;
+  }
+  .junior-third {
+    height: 116vh;
+  }
+  .junior-text > p {
+    font-size: 27px;
+  }
+  .iframe-txt {
+    font-size: 4em;
+  }
+  .iframe-inner-txt {
+    font-size: 1.7em;
+    width: 85vw;
+  }
+}
+@media (max-width: 768px) {
+  .home-second {
+    height: 65vh;
+  }
+  .junior-third {
+    height: 165vh;
+  }
+  .junior-text > p {
+    font-size: 24px;
+  }
+  .about-iframe {
+    overflow: inherit;
+  }
+  .shop-image {
+    width: 70vw;
+  }
+}
+@media (max-width: 414px) {
+  .home-title {
+    font-size: 2.5em;
+    width: 80vw;
+  }
+  .home-middle-text-h1 {
+    font-size: 1.5em;
+  }
+  .home-middle-text {
+    font-size: 1em;
+  }
+  .junior-text > p {
+    font-size: 0.9em;
+  }
+  .junior-third {
+    height: 190vh;
+  }
+  .iframe-txt {
+    font-size: 2em;
+  }
+  .iframe-inner-txt {
+    font-size: 1em;
+  }
+  .iframe-inner-txt2 {
+    font-size: 1em;
+  }
+}
+
 @media (max-width: 325px) {
   .home-junior-div {
     background-size: auto;

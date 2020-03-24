@@ -37,6 +37,23 @@
 .burger div {
   display: none;
 }
+@media (max-width: 1024px) {
+  .headerMain {
+    height: 10vh;
+  }
+  .navbar-toggle {
+    right: 13%;
+  }
+  .menu-items {
+    padding: 12px;
+    font-size: 1.2em;
+  }
+  .logo {
+    width: 21vw;
+    margin-left: 1%;
+  }
+}
+
 @media (max-width: 925px) {
   .logo-div {
     width: 55vw;
@@ -101,6 +118,19 @@
     align-items: flex-start;
     justify-content: space-evenly;
     margin-right: 7%;
+  }
+}
+@media (max-width: 768px) {
+  .headerMain {
+    height: 15vh;
+  }
+}
+@media (max-width: 414px) {
+  .logo {
+    width: 90%;
+  }
+  .logo-div {
+    margin-top: 15px;
   }
 }
 @media (max-width: 325px) {
