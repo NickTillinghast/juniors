@@ -42,6 +42,7 @@
   }
   .navbar-toggle {
     right: 13%;
+    margin-top: 2em;
   }
   .menu-items {
     padding: 12px;

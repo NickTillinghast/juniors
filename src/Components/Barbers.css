@@ -1,12 +1,15 @@
 .barbers-main {
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex;
+  justify-content: space-evenly; */
   background-color: rgb(49, 48, 45);
   height: 100%;
   width: 100%;
   -webkit-animation: fadein 0.5s;
 }
-
+.barber-land {
+  display: flex;
+  justify-content: space-evenly;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -21,9 +24,12 @@
   align-items: center;
   justify-content: center;
 }
+.juniors-image {
+  width: 60%;
+}
 .barber-image {
   padding: 20px;
-  height: 60vh;
+  width: 85%;
 }
 .barber-text {
   box-sizing: border-box;
@@ -43,23 +49,19 @@
   box-sizing: border-box;
   font-size: 20px;
   color: rgba(102, 96, 96, 0.63);
-  height: 260px;
+  height: 20vh;
   font-family: "Ledger", serif;
   padding: 5px;
   width: 75%;
-  /* font-family: "Josefin Slab", serif; */
 }
 .barber {
   width: 100%;
   margin-top: 10px;
   color: rgb(173, 147, 147);
-  /* border: solid; */
 }
 .junior-pic {
-  /* width: 100%; */
-  margin-top: 10px;
+  margin-top: 5%;
   color: rgba(78, 74, 74, 0.712);
-  /* border: solid; */
 }
 .barber-name {
   color: rgb(63, 54, 50);
@@ -71,25 +73,53 @@
 }
 
 .set-barbers-2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.911);
 }
 .junior-pics {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+
   width: 100vw;
 }
 .barber-set {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   height: 100%;
   width: 99%;
 }
-.barber-div {
-  width: 34%;
+.junior-working {
+  width: 90%;
+}
+.juniors-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.berto-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.rich-div {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.emmy-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.comments {
+  margin-top: 5%;
+  width: 50%;
 }
 
 .single-image {
@@ -142,4 +172,53 @@
 .barb-h1 {
   font-size: 2em;
   font-family: "Ledger", serif;
+}
+@media (max-width: 1024px) {
+  .barber-land {
+    height: 50vh;
+  }
+  .barbers-cuts {
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .barber-land {
+    height: 65vh;
+  }
+}
+@media (max-width: 414px) {
+  .barb-h1 {
+    font-size: 0.8em;
+  }
+  .barb-h2 {
+    font-size: 0.6em;
+  }
+  .barbers-box {
+    font-size: 0.8em;
+    width: 115%;
+    height: 45px;
+  }
+  .junior-text {
+    font-size: 0.7em;
+  }
+  .juniors-work {
+    flex-direction: column;
+  }
+  .junior-working {
+    width: 50%;
+  }
+  .barber-text {
+    font-size: 0.5em;
+  }
+  .barber-name {
+    font-size: 1.3em;
+  }
+  .junior-name {
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
 }
