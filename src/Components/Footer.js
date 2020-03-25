@@ -35,7 +35,6 @@ export default function Footer() {
           <p>Sunday Closed</p>
           <p>Monday Closed</p>
           <p>Tuesday 9am-6pm</p>
-
         </div>
         <div className="footer-info">
           <p> Wednesday 9am-6pm</p>
