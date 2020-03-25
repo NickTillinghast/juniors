@@ -1,6 +1,5 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+
 import "./Home.css";
 
 
@@ -66,19 +65,7 @@ export default function Home() {
 
             /> <p className="iframe-inner-txt2">It's not just Great cuts its a Great experience</p>
           </div>
-          <div className="instaFB">
-            <div>
-              <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">
-                <FaFacebookF size={40} style={{ color: "gray" }} />
-              </a>
 
-            </div>
-            <div>
-              <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
-                <FaInstagram size={40} style={{ color: "gray" }} />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 

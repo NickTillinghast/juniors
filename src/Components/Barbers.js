@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Barbers.css";
 
 
@@ -128,10 +127,10 @@ export default function Barbers() {
           <div className="barbers-cuts">
             <div className='images'>
               <img className='single-image' src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584593549/juniors/jxfnzay4mavyjhoqbjsq.jpg" alt="none" />
-
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

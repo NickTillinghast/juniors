@@ -15,7 +15,13 @@
   color: white;
   text-decoration: none;
 }
-
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-bottom: 3em;
+}
 .phone {
   font-weight: 800;
   text-decoration: none;

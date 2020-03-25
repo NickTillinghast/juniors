@@ -137,6 +137,11 @@
     width: 65%;
   }
 }
+/* @media (min-height: 375px) {
+  .headerMain {
+    height: 21vh;
+  }
+} */
 @media (max-width: 375px) {
 }
 @media (max-width: 320px) {
