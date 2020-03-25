@@ -60,10 +60,10 @@ export default function Barbers() {
                       "Berto is the worlds greatest barber ever to live" --Berto's mom.
                     </h2>
                     <h2 className="barber-text">
-                      "Berto is the worlds greatest barber ever to live" --Berto's mom.
+                      "If Berto was a soft Drink he would be Mountain Dew cuz it's the greatest" --Berto's cousin.
                     </h2>
                     <h2 className="barber-text">
-                      "Berto is the worlds greatest barber ever to live" --Berto's mom.
+                      "He may be tall and handsome, but he's an amazing Barber as well" --Random short guy.
                     </h2>
                   </div>
                   <div className="barber">
@@ -80,14 +80,14 @@ export default function Barbers() {
                       <div className="barber">
 
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584591660/juniors/xghxi878obmlvpnx7mdr.jpg" alt="none" />    <h2 className="barber-text">
+                          "I like pizza because its round.  Juggling is cool too." --Rich's stomach and hands
+                      </h2>
+                        <h2 className="barber-text">
+                          "A man's beard is like an extension of his heart.  Mines big and Badass" --Rich
                           "I like pizza because its round.  Juggling is cool too."
                       </h2>
                         <h2 className="barber-text">
-                          "I like pizza because its round.  Juggling is cool too."
-                          "I like pizza because its round.  Juggling is cool too."
-                      </h2>
-                        <h2 className="barber-text">
-                          "I like pizza because its round.  Juggling is cool too."
+                          "One of my goals in life is to cut The Beard of Chuck Norris" --Rich's scissors
                       </h2>
                       </div>
                       <div className="barber">
@@ -105,13 +105,13 @@ export default function Barbers() {
                       <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585086866/juniors/kyakwltwtahycadkredd.jpg" alt="none" />
                         <h2 className="barber-text">
-                          "I come from LA to represent beast mode all ovet these phoenix ladies."
+                          "Emmy cut my hair and next thing I knew I won the Lottery.  Not sure they are related, but seems like it." --random Lie
                       </h2>
                         <h2 className="barber-text">
-                          "I come from LA to represent beast mode all ovet these phoenix ladies."
+                          "If I had one wish I would use it to make me the best Female barber in Phoenix.  Too Late wish" --Emmy's genie
                       </h2>
                         <h2 className="barber-text">
-                          "I come from LA to represent beast mode all ovet these phoenix ladies."
+                          "Emmy is the nicest, most wonderful and talented Barber in the entire universe" --Emmy's Clippers
                       </h2>
                       </div>
                       <div className="barber">
