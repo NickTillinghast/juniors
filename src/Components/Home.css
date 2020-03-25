@@ -172,10 +172,10 @@
     letter-spacing: 0.1em;
   }
   .junior-third {
-    height: 125vh;
+    height: 115vh;
   }
   .junior-text > p {
-    font-size: 1em;
+    font-size: 1.4em;
   }
   .iframe-txt {
     font-size: 1.8em;
@@ -210,7 +210,7 @@
     height: 145vh;
   }
   .junior-text > p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .about-iframe {
     overflow: inherit;
@@ -236,7 +236,7 @@
     font-size: 1em;
   }
   .junior-text > p {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .junior-third {
     height: 120vh;
