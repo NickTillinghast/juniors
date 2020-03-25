@@ -55,6 +55,7 @@ export default function Barbers() {
                   <div className="barber">
                     <img className="barber-image"
                       src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584591668/juniors/pnul9hq7pxf1ajm0yp8c.jpg" alt="none" />
+
                     <h2 className="barber-text">
                       "Berto is the worlds greatest barber ever to live" --Berto's mom.
                     </h2>
@@ -64,6 +65,7 @@ export default function Barbers() {
                     <h2 className="barber-text">
                       "He may be tall and handsome, but he's an amazing Barber as well" --Random short guy.
                     </h2>
+
                   </div>
                   {/* <div className="barber">
                     <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/nbj7p8w3wilmnduda6uy.jpg" alt="none" />
@@ -83,7 +85,7 @@ export default function Barbers() {
                       </h2>
                         <h2 className="barber-text">
                           "A man's beard is like an extension of his heart.  Mines big and Badass" --Rich
-                          "I like pizza because its round.  Juggling is cool too."
+
                       </h2>
                         <h2 className="barber-text">
                           "One of my goals in life is to cut The Beard of Chuck Norris" --Rich's scissors

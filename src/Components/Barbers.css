@@ -32,6 +32,8 @@
   width: 50%;
 }
 .barber-text {
+  display: flex;
+  justify-content: flex-start;
   box-sizing: border-box;
   font-size: 20px;
   color: rgb(148, 148, 148);
@@ -79,7 +81,6 @@
 .junior-pics {
   display: flex;
   flex-direction: row;
-
   width: 100vw;
 }
 .barber-set {
