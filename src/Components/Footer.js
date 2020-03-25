@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 import "./Footer.css";
 
 export default function Footer() {
@@ -17,7 +17,7 @@ export default function Footer() {
         <p>phone: <a className="phone" href="tel:6022740000" >(602) 274-0000</a></p>
         <a className="phone" href="https://www.yelp.com/biz/juniors-barber-parlor-phoenix" target="blank">Check out our awesome reviews on yelp</a>
       </div>
-      <div>
+      {/* <div>
         <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">
           <FaFacebookF size={40} style={{ color: "white" }} />
         </a>
@@ -26,7 +26,7 @@ export default function Footer() {
         <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
           <FaInstagram size={40} style={{ color: "white" }} />
         </a>
-      </div>
+      </div> */}
       <div className="footer-info">
         <h3>Hours</h3>
         <p>Sunday Closed</p>

@@ -9,6 +9,11 @@
     opacity: 1;
   }
 }
+.instaFB {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.6em;
+}
 .home-junior-div {
   display: flex;
   flex-direction: column;
@@ -177,6 +182,14 @@
     font-size: 1.4em;
   }
 }
+@media (max-width: 875px) {
+  .junior-text > p {
+    font-size: 0.7em;
+  }
+  .junior-third {
+    height: 95vh;
+  }
+}
 @media (max-width: 768px) {
   .home-second {
     height: 65vh;
@@ -185,13 +198,16 @@
     height: 165vh;
   }
   .junior-text > p {
-    font-size: 24px;
+    font-size: 0.8em;
   }
   .about-iframe {
     overflow: inherit;
   }
   .shop-image {
     width: 70vw;
+  }
+  .parlor-pics {
+    flex-direction: column;
   }
 }
 @media (max-width: 414px) {
@@ -229,7 +245,7 @@
     font-size: 0.7em;
   }
   .junior-third {
-    height: 165vh;
+    height: 65vh;
   }
 }
 @media (max-width: 320px) {
