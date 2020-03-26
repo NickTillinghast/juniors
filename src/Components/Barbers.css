@@ -225,6 +225,13 @@
   .barber-text {
     font-size: 0.3em;
   }
+  .barber-image {
+    width: 80%;
+    padding: 0px;
+  }
+  .juniors-image {
+    width: 80%;
+  }
 }
 
 @media (max-width: 320px) {
