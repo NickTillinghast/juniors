@@ -186,6 +186,16 @@
   .barber-land {
     height: 65vh;
   }
+  .barber-image {
+    padding: 0px;
+    width: 80%;
+  }
+  .juniors-image {
+    width: 75%;
+  }
+  .junior-text {
+    height: 30vh;
+  }
 }
 @media (max-width: 414px) {
   .barb-h1 {
@@ -201,6 +211,7 @@
   }
   .junior-text {
     font-size: 0.7em;
+    height: 25vh;
   }
   .juniors-work {
     flex-direction: column;
@@ -221,6 +232,7 @@
 @media (max-width: 375px) {
   .junior-text {
     padding: 0px;
+    height: 20vh;
   }
   .barber-text {
     font-size: 0.3em;
