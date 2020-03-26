@@ -67,9 +67,9 @@ export default function Barbers() {
                     </h2>
 
                   </div>
-                  {/* <div className="barber">
+                  <div className="barber">
                     <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/nbj7p8w3wilmnduda6uy.jpg" alt="none" />
-                  </div> */}
+                  </div>
 
                 </div>
               </div>
@@ -91,9 +91,9 @@ export default function Barbers() {
                           "One of my goals in life is to cut The Beard of Chuck Norris" --Rich's scissors
                       </h2>
                       </div>
-                      {/* <div className="barber">
+                      <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082715/juniors/syrbsifmfjdtx8qm6myi.jpg" alt="none" />
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -115,9 +115,9 @@ export default function Barbers() {
                           "Emmy is the nicest, most wonderful and talented Barber in the entire universe" --Emmy's Clippers
                       </h2>
                       </div>
-                      {/* <div className="barber">
+                      <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/vzj4b8vfircqanfswyl5.jpg" alt="none" />
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
