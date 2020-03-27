@@ -58,8 +58,9 @@
 }
 
 .map-component {
-  width: 70% !important;
-  height: 70% !important;
+  width: 50% !important;
+  height: 60% !important;
+  margin-left: 10%;
 }
 @media (max-width: 1024px) {
   .map-component {
