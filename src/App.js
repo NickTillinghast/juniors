@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import routes from "./routes";
+import { Switch } from 'react-router-dom';
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -11,8 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Switch >
 
-        {routes}
+          {routes}
+        </Switch>
         <Footer />
 
       </div>

@@ -29,7 +29,8 @@
 }
 .barber-image {
   padding: 20px;
-  width: 35%;
+  /* width: 35%; */
+  width: 50%;
 }
 .barber-text {
   display: flex;

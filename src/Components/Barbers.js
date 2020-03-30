@@ -56,7 +56,7 @@ export default function Barbers() {
                     <img className="barber-image"
                       src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584591668/juniors/pnul9hq7pxf1ajm0yp8c.jpg" alt="none" />
 
-                    {/* <h2 className="barber-text">
+                    <h2 className="barber-text">
                       "Berto is the worlds greatest barber ever to live" --Berto's mom.
                     </h2>
                     <h2 className="barber-text">
@@ -64,12 +64,12 @@ export default function Barbers() {
                     </h2>
                     <h2 className="barber-text">
                       "He may be tall and handsome, but he's an amazing Barber as well" --Random short guy.
-                    </h2> */}
+                    </h2>
 
                   </div>
-                  {/* <div className="barber">
+                  <div className="barber">
                     <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/nbj7p8w3wilmnduda6uy.jpg" alt="none" />
-                  </div> */}
+                  </div>
 
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default function Barbers() {
                     <div className="rich-div">
                       <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584591660/juniors/xghxi878obmlvpnx7mdr.jpg" alt="none" />
-                        {/* <h2 className="barber-text">
+                        <h2 className="barber-text">
                           "I like pizza because its round.  Juggling is cool too." --Rich's stomach and hands
                       </h2>
                         <h2 className="barber-text">
@@ -89,11 +89,11 @@ export default function Barbers() {
                       </h2>
                         <h2 className="barber-text">
                           "One of my goals in life is to cut The Beard of Chuck Norris" --Rich's scissors
-                      </h2> */}
+                      </h2>
                       </div>
-                      {/* <div className="barber">
+                      <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082715/juniors/syrbsifmfjdtx8qm6myi.jpg" alt="none" />
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ export default function Barbers() {
                     <div className="emmy-div">
                       <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585086866/juniors/kyakwltwtahycadkredd.jpg" alt="none" />
-                        {/* <h2 className="barber-text">
+                        <h2 className="barber-text">
                           "Emmy cut my hair and next thing I knew I won the Lottery.  Not sure they are related, but seems like it." --random Lie
                       </h2>
                         <h2 className="barber-text">
@@ -113,11 +113,11 @@ export default function Barbers() {
                       </h2>
                         <h2 className="barber-text">
                           "Emmy is the nicest, most wonderful and talented Barber in the entire universe" --Emmy's Clippers
-                      </h2> */}
+                      </h2>
                       </div>
-                      {/* <div className="barber">
+                      <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082714/juniors/vzj4b8vfircqanfswyl5.jpg" alt="none" />
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
