@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  font-family: "PT Sans Caption", sans-serif;
+  font-family: "Ledger", serif;
   font-size: 18px;
   letter-spacing: 1px;
   width: 100vw;
@@ -36,14 +36,16 @@
 .burger div {
   display: none;
 }
+
 @media (max-width: 1024px) {
   .headerMain {
     height: 15vh;
   }
   .navbar-toggle {
     right: 13%;
-    margin-top: 2em;
+    /* margin-top: 2em; */
   }
+
   .menu-items {
     padding: 12px;
     font-size: 1em;
@@ -85,7 +87,7 @@
     text-decoration: none;
     color: rgb(214, 214, 214);
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Ledger", serif;
     padding: 10px;
     border-radius: 2px;
     letter-spacing: 3px;

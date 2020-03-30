@@ -29,7 +29,7 @@
 }
 .barber-image {
   padding: 20px;
-  width: 50%;
+  width: 35%;
 }
 .barber-text {
   display: flex;
@@ -88,7 +88,7 @@
   flex-direction: row;
   align-items: center;
   height: 100%;
-  width: 99%;
+  width: 100%;
 }
 .junior-working {
   width: 90%;
@@ -176,10 +176,19 @@
 }
 @media (max-width: 1024px) {
   .barber-land {
-    height: 50vh;
+    height: 70vh;
   }
   .barbers-cuts {
     height: 50vh;
+  }
+  .barb-h1 {
+    font-size: 1.6em;
+  }
+  .barb-h2 {
+    font-size: 0.7em;
+  }
+  .barbers-cuts {
+    height: 70vh;
   }
 }
 @media (max-width: 768px) {

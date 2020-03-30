@@ -153,6 +153,9 @@
   .junior-third {
     height: 130vh;
   }
+  .home-title {
+    font-size: 3em;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -175,13 +178,13 @@
     height: 115vh;
   }
   .junior-text > p {
-    font-size: 1.4em;
+    font-size: 0.9em;
   }
   .iframe-txt {
     font-size: 1.8em;
   }
   .iframe-inner-txt {
-    font-size: 1.4em;
+    font-size: 1em;
     width: 85vw;
   }
   .iframe-inner-txt2 {

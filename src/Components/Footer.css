@@ -3,16 +3,16 @@
   justify-content: space-evenly;
   align-items: center;
   height: 40vh;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(226, 226, 226);
   font-family: "Ledger", serif;
 }
 .footer-info {
-  color: rgba(255, 255, 255, 0.795);
+  color: rgba(70, 70, 70, 0.795);
   text-decoration: none;
   width: 15%;
 }
 .footer-info > a {
-  color: white;
+  color: rgba(70, 70, 70, 0.795);
   text-decoration: none;
 }
 .social-links {
@@ -25,7 +25,7 @@
 .phone {
   font-weight: 800;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.822);
+  color: rgba(70, 70, 70, 0.795);
 }
 .phone:hover {
   color: #b81f1fd2;
@@ -41,14 +41,21 @@
   .footer-main {
     height: 50vh;
     font-size: 1em;
-    justify-content: center;
+    justify-content: baseline;
   }
 }
+@media (max-width: 579px) {
+  .footer-main {
+    font-size: 0.9em;
+  }
+}
+
 @media (max-width: 414px) {
   .footer-main {
     flex-direction: column;
     font-size: 0.8em;
-    height: 100vh;
+    height: 80vh;
+    justify-content: center;
   }
   .footer-info {
     width: 20em;

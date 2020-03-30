@@ -39,6 +39,7 @@
 }
 .info-div {
   width: 50%;
+  margin-left: 5%;
 }
 .map-info {
   display: flex;
@@ -64,7 +65,7 @@
 }
 @media (max-width: 1024px) {
   .map-component {
-    width: 85% !important;
+    width: 50% !important;
   }
 }
 @media (max-width: 414px) {
@@ -76,7 +77,7 @@
   }
   .map-component {
     margin-left: 10%;
-    width: 110% !important;
+    width: 100% !important;
   }
   .info-div {
     width: 100%;
