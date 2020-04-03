@@ -191,6 +191,14 @@
   .barbers-cuts {
     height: 70vh;
   }
+  .barbers-box {
+    width: 40vw;
+  }
+}
+@media (max-width: 820px) {
+  .barbers-box {
+    width: 50vw;
+  }
 }
 @media (max-width: 768px) {
   .barber-land {
@@ -207,6 +215,28 @@
     height: 30vh;
   }
 }
+@media (max-width: 660px) {
+  .barbers-box {
+    width: 56vw;
+  }
+}
+@media (max-width: 588px) {
+  .barbers-box {
+    width: 60vw;
+  }
+}
+@media (max-width: 550px) {
+  .barbers-box {
+    width: 70vw;
+  }
+}
+@media (max-width: 475px) {
+  .barbers-box {
+    font-size: 0.9em;
+    width: 70vw;
+  }
+}
+
 @media (max-width: 414px) {
   .barb-h1 {
     font-size: 0.8em;

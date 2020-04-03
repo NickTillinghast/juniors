@@ -96,9 +96,12 @@
   text-decoration: none;
   color: rgba(255, 255, 255, 0.822);
 }
+.services-phone:hover {
+  color: #aa3627d2;
+}
 @media (max-width: 1024px) {
   .services-main {
-    height: 50vh;
+    height: 70vh;
   }
 }
 @media (max-width: 768px) {
