@@ -269,6 +269,23 @@
     font-size: 1.4em;
   }
 }
+/* @media only screen and (min-device-height: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .junior-text {
+    padding: 0px;
+    height: 20vh;
+  }
+  .barber-text {
+    font-size: 0.3em;
+  }
+  .barber-image {
+    width: 80%;
+    padding: 0px;
+  }
+  .juniors-image {
+    width: 80%;
+  }
+} */
+
 @media (max-width: 375px) {
   .junior-text {
     padding: 0px;
