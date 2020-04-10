@@ -200,11 +200,6 @@
   }
 }
 
-/* @media (min-height: 786px) {
-  .junior-third {
-    height: 130vh;
-  }
-} */
 @media (max-width: 768px) {
   .home-second {
     height: 65vh;
