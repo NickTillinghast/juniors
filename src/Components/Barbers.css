@@ -29,9 +29,15 @@
 }
 .barber-image {
   padding: 20px;
-  /* width: 35%; */
-  width: 50%;
+  width: 95%;
+  /* width: 50%; */
 }
+.barbers-adj-div {
+  display: flex;
+  font-size: smaller;
+  height: 60;
+}
+
 .barber-text {
   display: flex;
   justify-content: flex-start;
