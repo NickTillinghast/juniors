@@ -34,9 +34,9 @@ export default function Barbers() {
   your convenience. (No wait time) We take pride in what we do. Our work speaks for itself!  Passion ,vision ,perfection , consistency, conveniency haircuts.  That's what juniors is all about , quality haircut with quality time.  We guarantee you'll get your money's worth! Trust us!
             </h2>
             <div className="juniors-work">
-              <div>
+              {/* <div>
                 <img className="junior-working" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584594750/juniors/medbcbjpd9ckpxzofbz8.jpg" alt="none" />
-              </div>
+              </div> */}
               <div>
                 <img className="junior-working" src="https://res.cloudinary.com/dqpatwz6c/image/upload/c_scale,w_2400/v1584591705/juniors/vdfdvjq49ht2pnzo0bem.jpg" alt="none" />
               </div>
