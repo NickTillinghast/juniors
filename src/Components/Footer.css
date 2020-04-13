@@ -43,24 +43,29 @@
     height: 75vh;
   }
 }
-@media (max-height: 375px) {
+@media (max-height: 414px) {
   .footer-main {
     height: 100vh;
   }
 }
+/* @media (max-height: 375px) {
+  .footer-main {
+    height: 100vh;
+  }
+} */
 @media (max-height: 300px) {
   .footer-main {
     height: 150vh;
   }
 }
-@media (min-height: 375px) {
+/* @media (min-height: 375px) {
   .footer-main {
     height: 100vh;
   }
-}
+} */
 @media (max-width: 768px) {
   .footer-main {
-    height: 55vh;
+    height: 75vh;
     font-size: 1em;
     justify-content: baseline;
   }
