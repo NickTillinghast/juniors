@@ -199,7 +199,17 @@
     height: 95vh;
   }
 }
-
+@media (max-width: 812px) and (min-height: 375px) {
+  .home-second {
+    height: 100vh;
+  }
+  .junior-third {
+    height: 190vh;
+  }
+  .home-junior-div {
+    background-position: center;
+  }
+}
 @media (max-width: 768px) {
   .home-second {
     height: 65vh;
