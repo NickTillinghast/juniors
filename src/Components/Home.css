@@ -230,7 +230,22 @@
     flex-direction: column;
   }
 }
-@media (max-width: 736px) {
+@media (max-width: 736px) and (min-height: 414px) {
+  .junior-third {
+    height: 180vh;
+  }
+  .home-second {
+    height: 90vh;
+  }
+  .shop-image {
+    width: 44vw;
+  }
+  .parlor-pics {
+    flex-direction: row;
+  }
+  .junior-text > p {
+    font-size: 0.7em;
+  }
 }
 @media (max-width: 414px) {
   .home-title {

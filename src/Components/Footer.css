@@ -50,6 +50,11 @@
     justify-content: baseline;
   }
 }
+@media (max-width: 736px) and (min-height: 414px) {
+  .footer-main {
+    height: 100vh;
+  }
+}
 @media (max-width: 579px) {
   .footer-main {
     height: 66vh;
