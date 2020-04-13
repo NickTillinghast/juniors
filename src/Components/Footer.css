@@ -53,11 +53,11 @@
     height: 150vh;
   }
 }
-/* @media (max-width: 812px) and (min-height: 375px) {
+@media (min-height: 375px) {
   .footer-main {
     height: 100vh;
   }
-} */
+}
 @media (max-width: 768px) {
   .footer-main {
     height: 55vh;
