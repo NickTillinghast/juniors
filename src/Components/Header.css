@@ -122,7 +122,7 @@
     margin-right: 7%;
   }
 }
-@media (max-width: 812px) and (min-height: 375px) {
+@media (max-width: 812px) and (max-height: 375px) {
   .headerMain {
     height: 25vh;
   }
