@@ -302,10 +302,10 @@
     height: 80vh;
   }
   .junior-text > p {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   .junior-third {
-    height: 90vh;
+    height: 75vh;
   }
 }
 @media (max-width: 320px) {
