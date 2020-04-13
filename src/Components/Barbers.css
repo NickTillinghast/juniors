@@ -35,7 +35,6 @@
 .barbers-adj-div {
   display: flex;
   font-size: smaller;
-  height: 60;
 }
 
 .barber-text {
@@ -90,13 +89,13 @@
   flex-direction: row;
   width: 100vw;
 }
-.barber-set {
+/* .barber-set {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 100%;
   width: 100%;
-}
+} */
 .junior-working {
   width: 90%;
 }
@@ -284,7 +283,7 @@
     font-size: 1.4em;
   }
 }
-/* @media only screen and (min-device-height: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+/* @media only screen and (min-device-height: 375px) and (max-device-width: 812px) {
   .junior-text {
     padding: 0px;
     height: 20vh;
@@ -304,7 +303,7 @@
 @media (max-width: 375px) {
   .junior-text {
     padding: 0px;
-    height: 20vh;
+    height: 28vh;
   }
   .barber-text {
     font-size: 0.3em;
