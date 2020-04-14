@@ -38,6 +38,7 @@
     height: 60vh;
   }
 }
+
 @media (max-height: 575px) {
   .footer-main {
     height: 75vh;
@@ -65,7 +66,7 @@
 } */
 @media (max-width: 768px) {
   .footer-main {
-    height: 75vh;
+    height: 45vh;
     font-size: 1em;
     justify-content: baseline;
   }

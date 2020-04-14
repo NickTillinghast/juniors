@@ -175,7 +175,7 @@
     letter-spacing: 0.1em;
   }
   .junior-third {
-    height: 115vh;
+    height: 90vh;
   }
   .junior-text > p {
     font-size: 0.9em;
@@ -230,7 +230,29 @@
     flex-direction: column;
   }
 }
-@media (max-width: 736px) and (min-height: 414px) {
+@media (max-height: 768px) {
+  .junior-third {
+    height: 135vh;
+  }
+}
+@media (max-height: 414px) {
+  .junior-third {
+    height: 180vh;
+  }
+  .home-second {
+    height: 90vh;
+  }
+  .shop-image {
+    width: 44vw;
+  }
+  .parlor-pics {
+    flex-direction: row;
+  }
+  .junior-text > p {
+    font-size: 0.7em;
+  }
+}
+@media (max-height: 414px) {
   .junior-third {
     height: 180vh;
   }
@@ -274,9 +296,9 @@
     font-size: 1em;
   }
 }
-@media (max-width: 812px) and (min-height: 350px) {
+@media (max-height: 350px) {
   .home-junior-div {
-    height: 195vh;
+    height: 210vh;
   }
   .home-second {
     height: 120vh;
@@ -297,7 +319,7 @@
     font-size: 1em;
   }
   .junior-third {
-    height: 75vh;
+    height: 110vh;
   }
   .junior-name {
     font-size: larger;
