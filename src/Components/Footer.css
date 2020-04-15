@@ -35,10 +35,16 @@
   .footer-main {
     justify-content: space-evenly;
     font-size: 1em;
-    height: 60vh;
+    height: 45vh;
   }
 }
-
+@media (max-width: 768px) {
+  .footer-main {
+    height: 45vh;
+    font-size: 1em;
+    justify-content: baseline;
+  }
+}
 @media (max-height: 575px) {
   .footer-main {
     height: 75vh;
@@ -47,6 +53,7 @@
 @media (max-height: 414px) {
   .footer-main {
     height: 100vh;
+    font-size: 0.8em;
   }
 }
 /* @media (max-height: 375px) {
@@ -64,13 +71,7 @@
     height: 100vh;
   }
 } */
-@media (max-width: 768px) {
-  .footer-main {
-    height: 45vh;
-    font-size: 1em;
-    justify-content: baseline;
-  }
-}
+
 /* @media (max-width: 736px) and (min-height: 414px) {
   .footer-main {
     height: 100vh;
@@ -93,17 +94,24 @@
     width: 20em;
   }
 }
-/* @media (max-width: 414px) {
+@media (max-width: 411px) {
   .footer-main {
-    flex-direction: column;
-    font-size: 0.8em;
-    height: 90vh;
-    justify-content: center;
+    height: 75vh;
   }
+}
+@media (max-height: 411px) {
   .footer-info {
-    width: 20em;
+    font-size: 0.8em;
   }
-} */
+  .footer-main {
+    height: 75vh;
+  }
+}
+@media (max-height: 414px) {
+  .footer-main {
+    height: 75vh;
+  }
+}
 
 @media (max-width: 325px) {
   .footer-main {
@@ -117,6 +125,14 @@
 }
 @media (max-width: 320px) {
   .footer-main {
-    height: 110vh;
+    height: 95vh;
+  }
+}
+@media (max-height: 320px) {
+  .footer-main {
+    height: 75vh;
+  }
+  .footer-info {
+    font-size: 0.7em;
   }
 }

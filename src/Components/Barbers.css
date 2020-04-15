@@ -194,7 +194,7 @@
     font-size: 0.7em;
   }
   .barbers-cuts {
-    height: 70vh;
+    height: 50vh;
   }
   .barbers-box {
     width: 40vw;
@@ -209,9 +209,44 @@
     width: 50%;
   }
 }
+@media (max-height: 1024px) {
+  .juniors-work {
+    padding-bottom: 5em;
+  }
+  .junior-text {
+    height: 26vh;
+  }
+}
+@media (max-width: 925px) {
+  .barbers-cuts {
+    height: 70vh;
+  }
+}
 @media (max-width: 820px) {
   .barbers-box {
     width: 50vw;
+  }
+}
+@media (max-height: 375px) {
+  .barbers-inner {
+    margin-top: 0;
+  }
+  .barb-h1 {
+    font-size: 0.9em;
+  }
+  .barber-land {
+    height: 95vh;
+  }
+  .barbers-box {
+    width: 34vw;
+    font-size: 0.8em;
+    height: 13vh;
+  }
+  .junior-text {
+    height: 60vh;
+  }
+  .barbers-cuts {
+    height: 125vh;
   }
 }
 @media (max-width: 768px) {
@@ -283,23 +318,50 @@
     font-size: 1.4em;
   }
 }
-/* @media only screen and (min-device-height: 375px) and (max-device-width: 812px) {
+@media (max-height: 414px) {
+  .barb-h1 {
+    font-size: 1em;
+  }
+  .barbers-inner {
+    margin-top: 0;
+  }
+  .barbers-box {
+    font-size: 1em;
+    width: 40vw;
+  }
   .junior-text {
-    padding: 0px;
-    height: 20vh;
+    height: 65vh;
   }
-  .barber-text {
-    font-size: 0.3em;
+  .barbers-cuts {
+    height: 100vh;
   }
-  .barber-image {
-    width: 80%;
-    padding: 0px;
+}
+@media (max-width: 411px) {
+  .juniors-work {
+    padding-bottom: 0.5em;
   }
-  .juniors-image {
-    width: 80%;
-  }
-} */
 
+  .barbers-cuts {
+    height: 30vh;
+  }
+}
+@media (max-height: 411px) {
+  .barber-land {
+    height: 90vh;
+  }
+}
+@media (max-height: 375px) {
+  .barber-land {
+    height: 90vh;
+  }
+  .barbers-box {
+    font-size: 0.7em;
+    width: 33vw;
+  }
+  .junior-text {
+    height: 75vh;
+  }
+}
 @media (max-width: 375px) {
   .junior-text {
     padding: 0px;
@@ -315,10 +377,24 @@
   .juniors-image {
     width: 80%;
   }
+  .barbers-cuts {
+    height: 30vh;
+  }
+  .juniors-work {
+    padding-bottom: 1em;
+  }
 }
 
 @media (max-width: 320px) {
   .junior-text {
     height: 30vh;
+  }
+}
+@media (max-height: 320px) {
+  .junior-name {
+    font-size: 20px;
+  }
+  .junior-text {
+    font-size: 1em;
   }
 }
