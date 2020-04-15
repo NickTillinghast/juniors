@@ -161,7 +161,7 @@
     padding: 10px;
   }
 }
-@media (min-height: 375px) {
+@media (max-height: 375px) {
   .logo {
     padding: 15px;
   }
@@ -177,5 +177,10 @@
   }
   .headerMain {
     height: 20vh;
+  }
+}
+@media (max-height: 375px) {
+  .logo {
+    padding: 15px;
   }
 }

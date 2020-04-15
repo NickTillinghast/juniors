@@ -160,6 +160,10 @@
   }
   .services-list {
     height: 67vh;
+    font-size: 20px;
+  }
+  .appointments-div {
+    font-size: 0.8em;
   }
 }
 @media (max-width: 375px) {
@@ -188,5 +192,19 @@
   }
   .house-call {
     margin-top: 6em;
+  }
+  .services-list {
+    font-size: 0.8em;
+  }
+}
+@media (max-height: 320px) {
+  .services-main {
+    height: 95vh;
+  }
+  .services-list {
+    font-size: 0.8em;
+  }
+  .appointments {
+    padding: 0;
   }
 }
