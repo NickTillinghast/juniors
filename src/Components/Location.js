@@ -24,12 +24,10 @@ class MapContainer extends Component {
             <div className="location-main">
                 <div className="map">
                     <div>
-
                         <div className="location-text">
                             <h1>Juniors Barber Parlor</h1>
                             <p>We are located in MidTown Phoenix just North of Missouri and 7th Ave</p>
                         </div>
-
                     </div>
                 </div>
                 <div>

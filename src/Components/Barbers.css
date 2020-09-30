@@ -143,7 +143,7 @@
 }
 .barber-land {
   height: 80vh;
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1584594748/juniors/zzfmwglvzqnlqp1alme2.jpg);
 
