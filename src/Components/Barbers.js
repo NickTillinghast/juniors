@@ -31,7 +31,7 @@ export default function Barbers() {
             <h1 className="junior-name">Junior</h1>
             <h2 className="junior-text">
               We specialize in consistency, quality haircuts. when you make a appointment your paying for
-  your convenience. (No wait time) We take pride in what we do. Our work speaks for itself!  Passion ,vision ,perfection , consistency, conveniency haircuts.  That's what juniors is all about , quality haircut with quality time.  We guarantee you'll get your money's worth! Trust us!
+              your convenience. (No wait time) We take pride in what we do. Our work speaks for itself!  Passion ,vision ,perfection , consistency, conveniency haircuts.  That's what juniors is all about , quality haircut with quality time.  We guarantee you'll get your money's worth! Trust us!
             </h2>
             <div className="juniors-work">
               {/* <div>
@@ -76,11 +76,11 @@ export default function Barbers() {
               <div>
                 <div className="barber-div">
                   <div>
-                    <h1 className="barber-name">Rich</h1>
-                    <div className="rich-div">
-                      <div className="barber">
-                        <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584591660/juniors/xghxi878obmlvpnx7mdr.jpg" alt="none" />
-                        {/* <h2 className="barber-text">
+                    {/* <h1 className="barber-name">Rich</h1> */}
+                    {/* <div className="rich-div"> */}
+                    {/* <div className="barber"> */}
+                    {/* <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584591660/juniors/xghxi878obmlvpnx7mdr.jpg" alt="none" /> */}
+                    {/* <h2 className="barber-text">
                           "I like pizza because its round.  Juggling is cool too." --Rich's stomach and hands
                       </h2>
                         <h2 className="barber-text">
@@ -90,11 +90,11 @@ export default function Barbers() {
                         <h2 className="barber-text">
                           "One of my goals in life is to cut The Beard of Chuck Norris" --Rich's scissors
                       </h2> */}
-                      </div>
-                      {/* <div className="barber">
+                    {/* </div> */}
+                    {/* <div className="barber">
                         <img className="barber-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082715/juniors/syrbsifmfjdtx8qm6myi.jpg" alt="none" />
                       </div> */}
-                    </div>
+                    {/* </div> */}
                   </div>
                 </div>
               </div>

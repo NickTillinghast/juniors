@@ -24,8 +24,13 @@
   }
 }
 .house-call {
+  display: flex;
+  justify-content: center;
+
   font-size: 1.3em;
   color: rgb(121, 121, 121);
+  padding-top: 80px;
+  /* padding-right: 200px; */
 }
 .services-inner {
   font-family: "Ledger", serif;

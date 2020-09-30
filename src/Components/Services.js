@@ -35,7 +35,9 @@ export default function Services() {
             </div>
 
           </div>
-          <p className="house-call">House Calls Reservation only $100</p>
+          <div className="house-call">
+            <p>House Calls By Reservation only $100</p>
+          </div>
           <div className="appointments-div">
             <div className="appointments">
               <h1>Appointment Polices</h1>
