@@ -21,8 +21,8 @@ export default function Footer() {
       <div className="footer-main" >
         <div className="footer-info">
           <h1>Juniors Barber Parlor</h1>
-          <p>located at 5324 N 7th Ave, Phoenix, AZ 85013</p>
-          <p>northwest side of 7th Ave and missouri</p>
+          <p>Located at 5324 N 7th Ave, Phoenix, AZ 85013</p>
+          <p>Northwest side of 7th Ave and missouri</p>
         </div>
         <div className="footer-info">
           <h3>book and appointment</h3>
