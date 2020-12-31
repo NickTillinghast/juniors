@@ -36,7 +36,7 @@ class MapContainer extends Component {
                             <h1>Our Address </h1>
                             <p>5324 N 7th Ave, Phoenix, AZ 85013</p>
                             <h1>Book an Appointment</h1>
-                            <p><a className="phone-map" href="tel:6024866621" >(602) 274-0000</a></p>
+                            <p><a className="phone-map" href="tel:6022740000" >(602) 274-0000</a></p>
                             <h1>Connect with Us</h1>
                             <p> <a className="phone-map" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
                                 @juniorsbarberparlor
