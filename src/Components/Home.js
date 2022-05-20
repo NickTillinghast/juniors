@@ -12,7 +12,6 @@ export default function Home() {
             <div className="home-main-text">
               <h1 className="home-title">Junior's Barber Parlor</h1>
               <h3 className="home-title-2">since 2016</h3>
-              <p className="home-middle-text-h1">Due to Covid 19 Our Waiting area is closed and Masks are required. </p>
             </div>
           </div>
         </div>
@@ -25,7 +24,7 @@ export default function Home() {
               <p className="home-middle-text">
 
                 Juniors is a classic barbershop midtown in Phoenix, specializing in traditional men's haircuts such as pompadours, flat tops, and executive contours. We also offer hot towel shaves, beard trims, and carry premium grooming products for all of your needs.
-        </p>
+              </p>
             </div>
           </div>
         </div>

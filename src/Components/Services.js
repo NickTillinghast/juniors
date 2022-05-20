@@ -20,14 +20,14 @@ export default function Services() {
           </div>
           <div className="services-list" >
             <div className="services-list-a">
-              <div>Hair cut $30</div>
-              <div>Beard trim $20</div>
-              <div>Straight Shave $25</div>
+              <div>Hair cut $35-$40</div>
+              <div>Beard trim $25</div>
+              <div>Straight Shave $30</div>
               <div>Eyebrows $10</div>
-              <div>Childs cut $25</div>
+              <div>Hair Cut 12 and Younger $25</div>
             </div>
             <div className="services-list-b">
-              <div>Head and Beard $40</div>
+              <div>Head and Beard $45-$50</div>
               <div>Seniors $20</div>
               <div>Nose and Ear waxing $10</div>
               <div>Face Cleanser $10</div>
