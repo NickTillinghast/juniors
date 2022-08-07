@@ -61,6 +61,7 @@
   font-family: "Ledger", serif;
   padding: 5px;
   width: 75%;
+  margin-bottom: 45px;
 }
 .barber {
   width: 100%;
@@ -100,12 +101,6 @@
   padding-bottom: 2em;
 }
 
-.berto-div {
-  display: flex;
-  flex-direction: row;
-  margin-left: 6%;
-  margin-right: 6%;
-}
 .rich-div {
   display: flex;
   flex-direction: row-reverse;
@@ -188,7 +183,7 @@
     font-size: 0.7em;
   }
   .barbers-cuts {
-    height: 50vh;
+    height: 65vh;
   }
   .barbers-box {
     width: 40vw;
@@ -200,13 +195,13 @@
   }
   .barber-image {
     padding: 0px;
-    width: 50%;
+    width: 80%;
   }
 }
 
 @media (max-width: 925px) {
   .barbers-cuts {
-    height: 70vh;
+    height: 60vh;
   }
 }
 @media (max-width: 820px) {
@@ -224,7 +219,7 @@
     width: 75%;
   }
   .junior-text {
-    height: 30vh;
+    height: 40vh;
   }
 }
 @media (max-width: 660px) {

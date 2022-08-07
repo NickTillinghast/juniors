@@ -6,8 +6,8 @@ export default function Services() {
     <div>
       <div className="services-main">
         <div className="services-inner">
-          <h1>Services</h1>
-          <p>We stand by our quality of work</p>
+          <div className="title">Services</div>
+          <div>We stand by our quality of work</div>
 
           <p className="services-box"><a className="services-phone" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="blank" rel='noref'>Book With Us</a></p>
 
