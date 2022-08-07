@@ -18,11 +18,11 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: 64vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("https://res.cloudinary.com/dqpatwz6c/image/upload/v1601956791/juniors/hplbcpb7nlkiv9mbpucs.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
 
   color: rgba(255, 255, 255, 0.76);
@@ -32,8 +32,8 @@
   width: 100%;
 }
 .home-title {
-  width: 50vw;
-  font-size: 5em;
+  width: 55vw;
+  font-size: 60px;
   font-family: "Ledger", serif;
 }
 .home-title-2 {
@@ -41,14 +41,14 @@
   font-family: "Ledger", serif;
   margin-bottom: 20px;
 }
-.home-main-text {
-  margin-top: 24em;
-}
+/* .home-main-text {
+  margin-top: 8em;
+} */
 .home-title-sub {
   font-size: 2em;
 }
 .home-main-title {
-  margin: 0 auto;
+  margin: 70px auto;
 }
 .junior-image {
   height: 100%;
@@ -62,24 +62,29 @@
   justify-content: center;
   width: 100%;
   background-color: white;
-  height: 50vh;
+  height: 55vh;
   color: rgba(0, 0, 0, 0.801);
+  flex-direction: column;
 }
 .home-middle-text {
   letter-spacing: 0.2em;
   padding: 5px;
   line-height: 1.8;
-  width: 50vw;
-  font-size: 1.2em;
+  width: 80vw;
+  font-size: 22px;
   font-family: "Ledger", serif;
 }
 .home-middle-text-h1 {
   letter-spacing: 0.2em;
   padding: 5px;
   line-height: 1.8;
-  width: 50vw;
-  font-size: 1.7em;
+  width: 60vw;
+  font-size: 30px;
   font-family: "Ledger", serif;
+}
+.junior-name {
+  margin-top: 20px;
+  font-size: 40px;
 }
 .third {
   display: flex;
@@ -141,13 +146,62 @@
   font-size: 1.5em;
   color: black;
   font-family: "Ledger", serif;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .parlor-pics {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 93vw;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-brown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 8vh;
+  color: white;
+  border: solid white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Ledger", serif;
+  box-shadow: 0 0 1px rgb(44, 44, 44);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+
+  height: 8vh;
+  color: white;
+  border: solid white;
+
+  font-size: 1em;
+  box-shadow: 0 0 1px rgb(44, 44, 44);
+  text-decoration: none;
+}
+.btn-brown:hover {
+  color: #aa3627d2;
+  text-decoration: underline;
+  text-decoration-color: white;
+  cursor: pointer;
+}
+@media (max-width: 1900px) {
+  .btn-brown {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1622px) {
+  .btn-brown {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1400px) {
   .junior-third {
@@ -160,11 +214,11 @@
 
 @media (max-width: 1024px) {
   .home-title {
-    margin-top: 45vh;
     width: 65vw;
+    font-size: 35px;
   }
   .home-middle-text-h1 {
-    font-size: 1.7em;
+    font-size: 30px;
     letter-spacing: 0.1em;
     width: 75vw;
     line-height: none;
@@ -175,7 +229,7 @@
     letter-spacing: 0.1em;
   }
   .junior-third {
-    height: 90vh;
+    height: 120vh;
   }
   .junior-text > p {
     font-size: 0.9em;
@@ -184,7 +238,7 @@
     font-size: 1.8em;
   }
   .iframe-inner-txt {
-    font-size: 1em;
+    font-size: 22px;
     width: 85vw;
   }
   .iframe-inner-txt2 {
@@ -193,39 +247,22 @@
 }
 @media (max-width: 875px) {
   .junior-text > p {
-    font-size: 0.7em;
+    font-size: 18px;
   }
   .junior-third {
-    height: 95vh;
+    height: 110vh;
   }
 }
-@media (max-width: 812px) and (min-height: 375px) {
-  .home-second {
-    height: 100vh;
-  }
-  .junior-third {
-    height: 190vh;
-  }
-  .home-junior-div {
-    height: 100vh;
-    background-position: center;
-  }
-  .home-main-title {
-    font-size: 1em;
-  }
-  .home-main-text {
-    margin-top: 0;
-  }
-}
+
 @media (max-width: 768px) {
   .home-second {
-    height: 65vh;
+    height: 60vh;
   }
   .junior-third {
-    height: 145vh;
+    height: 168vh;
   }
   .junior-text > p {
-    font-size: 0.9em;
+    font-size: 19px;
   }
   .about-iframe {
     overflow: inherit;
@@ -237,48 +274,24 @@
     flex-direction: column;
   }
 }
-@media (max-height: 768px) {
-  .junior-third {
-    height: 135vh;
-  }
-}
-@media (max-height: 414px) {
-  .junior-third {
-    height: 180vh;
+
+@media (max-width: 565px) {
+  .btn-brown {
+    font-size: 18px;
   }
   .home-second {
-    height: 90vh;
-  }
-  .shop-image {
-    width: 44vw;
-  }
-  .parlor-pics {
-    flex-direction: row;
+    height: 80vh;
   }
   .junior-text > p {
-    font-size: 0.7em;
+    font-size: 19px;
   }
-}
-@media (max-height: 414px) {
   .junior-third {
-    height: 180vh;
-  }
-  .home-second {
-    height: 90vh;
-  }
-  .shop-image {
-    width: 44vw;
-  }
-  .parlor-pics {
-    flex-direction: row;
-  }
-  .junior-text > p {
-    font-size: 0.7em;
+    height: 170vh;
   }
 }
 @media (max-width: 414px) {
   .home-title {
-    font-size: 2.5em;
+    font-size: 35px;
     width: 80vw;
   }
   .home-middle-text-h1 {
@@ -288,10 +301,10 @@
     font-size: 1em;
   }
   .junior-text > p {
-    font-size: 1em;
+    font-size: 16px;
   }
   .junior-third {
-    height: 120vh;
+    height: 133vh;
   }
   .iframe-txt {
     font-size: 2em;
@@ -302,19 +315,19 @@
   .iframe-inner-txt2 {
     font-size: 1em;
   }
+  .btn-brown {
+    font-size: 20px;
+    width: 50vw;
+  }
 }
-@media (max-height: 350px) {
-  .home-junior-div {
-    height: 210vh;
-  }
-  .home-second {
-    height: 120vh;
-  }
-  .shop-image {
-    width: 45vw;
-  }
+@media (max-width: 393px) {
   .junior-third {
-    height: 190vh;
+    height: 141vh;
+  }
+}
+@media (max-width: 390px) {
+  .junior-third {
+    height: 143vh;
   }
 }
 
@@ -323,15 +336,28 @@
     height: 80vh;
   }
   .junior-text > p {
-    font-size: 1em;
+    font-size: 15px;
   }
   .junior-third {
-    height: 110vh;
+    height: 168vh;
   }
   .junior-name {
-    font-size: larger;
+    font-size: 25px;
+  }
+  .btn-brown {
+    font-size: 20px;
+    width: 50vw;
+  }
+  .home-junior-div {
+    height: 60vh;
   }
 }
+@media (max-width: 360px) {
+  .junior-third {
+    height: 155vh;
+  }
+}
+
 @media (max-width: 320px) {
   .home-junior-div {
     background-size: auto;
@@ -352,11 +378,9 @@
   }
   .home-title {
     width: 50vw;
-    font-size: 2em;
+    font-size: 35px;
   }
-  .home-main-text {
-    margin-top: 20em;
-  }
+
   .home-middle-text {
     letter-spacing: 0.2em;
     padding: 5px;
@@ -401,6 +425,6 @@
     font-size: 0.7em;
   }
   .junior-name {
-    font-size: 1em;
+    font-size: 20px;
   }
 }

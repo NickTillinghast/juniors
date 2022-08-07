@@ -7,16 +7,20 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="social-links">
-        <div>
-          <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">
-            <FaFacebookF size={40} style={{ color: "gray" }} />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
-            <FaInstagram size={40} style={{ color: "gray" }} />
-          </a>
-        </div>
+        {/* <div> */}
+        <a href="https://www.facebook.com/juniorsbarberparlor" target="blank">
+          <FaFacebookF size={40} style={{ color: "gray" }} />
+        </a>
+        {/* </div> */}
+        {/* <div> */}
+        <a className='footer-booking-link' href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="blank" rel='noref'>Book Now</a>
+
+        {/* </div> */}
+        {/* <div> */}
+        <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
+          <FaInstagram size={40} style={{ color: "gray" }} />
+        </a>
+        {/* </div> */}
       </div>
       <div className="footer-main" >
         <div className="footer-info">
@@ -25,7 +29,7 @@ export default function Footer() {
           <p>Northwest side of 7th Ave and missouri</p>
         </div>
         <div className="footer-info">
-          <h3>book and appointment</h3>
+          {/* <a className='footer-booking-link' href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="blank" rel='noref'>Book Now</a> */}
           <p>phone: <a className="phone" href="tel:6022740000" >(602) 274-0000</a></p>
           <a className="phone" href="https://www.yelp.com/biz/juniors-barber-parlor-phoenix" target="blank">Check out our awesome reviews on yelp</a>
         </div>

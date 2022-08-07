@@ -20,7 +20,8 @@
   justify-content: space-evenly;
   background-color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-bottom: 3em;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .phone {
   font-weight: 800;
@@ -31,10 +32,24 @@
   text-decoration: underline;
   color: #aa3627d2;
 }
+.footer-booking-link {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 7px 20px 7px 20px;
+  color: rgba(70, 70, 70, 0.795);
+  text-decoration: none;
+  border: solid 4px rgba(70, 70, 70, 0.795);
+}
+.footer-booking-link:hover {
+  color: #aa3627d2;
+  text-decoration: underline;
+  text-decoration-color: white;
+  cursor: pointer;
+}
 @media (max-width: 1024px) {
   .footer-main {
     justify-content: space-evenly;
-    font-size: 1em;
+    font-size: 14px;
     height: 45vh;
   }
 }
@@ -51,44 +66,22 @@
     font-size: 0.9em;
   }
 }
-@media (max-height: 575px) {
-  .footer-main {
-    height: 75vh;
-  }
-}
+
 @media (max-width: 550px) {
   .footer-main {
     flex-direction: column;
     font-size: 0.8em;
-    height: 90vh;
+    height: 75vh;
     justify-content: center;
   }
   .footer-info {
     width: 20em;
   }
 }
-@media (max-height: 414px) {
-  .footer-main {
-    height: 100vh;
-    font-size: 0.8em;
-  }
-}
-@media (max-height: 414px) {
-  .footer-main {
-    height: 75vh;
-  }
-}
+
 @media (max-width: 411px) {
   .footer-main {
-    height: 80vh;
-  }
-}
-@media (max-height: 411px) {
-  .footer-info {
-    font-size: 0.8em;
-  }
-  .footer-main {
-    height: 75vh;
+    height: 70vh;
   }
 }
 
@@ -111,18 +104,5 @@
 @media (max-width: 320px) {
   .footer-main {
     height: 95vh;
-  }
-}
-@media (max-height: 320px) {
-  .footer-main {
-    height: 75vh;
-  }
-  .footer-info {
-    font-size: 0.7em;
-  }
-}
-@media (max-height: 300px) {
-  .footer-main {
-    height: 150vh;
   }
 }

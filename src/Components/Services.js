@@ -9,7 +9,7 @@ export default function Services() {
           <h1>Services</h1>
           <p>We stand by our quality of work</p>
 
-          <p className="services-box"><a className="services-phone" href="tel:6022740000" >Call and Book With Us</a></p>
+          <p className="services-box"><a className="services-phone" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="blank" rel='noref'>Book With Us</a></p>
 
         </div>
       </div>
@@ -20,20 +20,17 @@ export default function Services() {
           </div>
           <div className="services-list" >
             <div className="services-list-a">
-              <div>Hair cut $35-$40</div>
-              <div>Beard trim $25</div>
-              <div>Straight Shave $30</div>
+              <div>Hair Cut $45</div>
+              <div>Beard Trim $30</div>
               <div>Eyebrows $10</div>
-              <div>Hair Cut 12 and Younger $25</div>
+              <div>Hair Cut 12 and Younger $30</div>
             </div>
             <div className="services-list-b">
-              <div>Head and Beard $45-$50</div>
-              <div>Seniors $20</div>
+              <div>Haircut and Beard $55</div>
+              <div>Seniors $25</div>
               <div>Nose and Ear waxing $10</div>
-              <div>Face Cleanser $10</div>
               <div>Black Mask $10</div>
             </div>
-
           </div>
           <div className="house-call">
             <p>House Calls By Reservation only $100</p>

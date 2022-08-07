@@ -89,13 +89,7 @@
   flex-direction: row;
   width: 100vw;
 }
-/* .barber-set {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-} */
+
 .junior-working {
   width: 90%;
 }
@@ -209,14 +203,7 @@
     width: 50%;
   }
 }
-@media (max-height: 1024px) {
-  .juniors-work {
-    padding-bottom: 5em;
-  }
-  .junior-text {
-    height: 26vh;
-  }
-}
+
 @media (max-width: 925px) {
   .barbers-cuts {
     height: 70vh;
@@ -227,36 +214,12 @@
     width: 50vw;
   }
 }
-@media (max-height: 375px) {
-  .barbers-inner {
-    margin-top: 0;
-  }
-  .barb-h1 {
-    font-size: 0.9em;
-  }
-  .barber-land {
-    height: 95vh;
-  }
-  .barbers-box {
-    width: 34vw;
-    font-size: 0.8em;
-    height: 13vh;
-  }
-  .junior-text {
-    height: 60vh;
-  }
-  .barbers-cuts {
-    height: 125vh;
-  }
-}
+
 @media (max-width: 768px) {
   .barber-land {
     height: 65vh;
   }
-  /* .barber-image {
-    padding: 0px;
-    width: 50%;
-  } */
+
   .juniors-image {
     width: 75%;
   }
@@ -318,24 +281,7 @@
     font-size: 1.4em;
   }
 }
-@media (max-height: 414px) {
-  .barb-h1 {
-    font-size: 1em;
-  }
-  .barbers-inner {
-    margin-top: 0;
-  }
-  .barbers-box {
-    font-size: 1em;
-    width: 40vw;
-  }
-  .junior-text {
-    height: 65vh;
-  }
-  .barbers-cuts {
-    height: 100vh;
-  }
-}
+
 @media (max-width: 411px) {
   .juniors-work {
     padding-bottom: 0.5em;
@@ -345,23 +291,7 @@
     height: 30vh;
   }
 }
-@media (max-height: 411px) {
-  .barber-land {
-    height: 90vh;
-  }
-}
-@media (max-height: 375px) {
-  .barber-land {
-    height: 90vh;
-  }
-  .barbers-box {
-    font-size: 0.7em;
-    width: 33vw;
-  }
-  .junior-text {
-    height: 75vh;
-  }
-}
+
 @media (max-width: 375px) {
   .junior-text {
     padding: 0px;
@@ -388,13 +318,5 @@
 @media (max-width: 320px) {
   .junior-text {
     height: 30vh;
-  }
-}
-@media (max-height: 320px) {
-  .junior-name {
-    font-size: 20px;
-  }
-  .junior-text {
-    font-size: 1em;
   }
 }
