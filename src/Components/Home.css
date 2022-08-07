@@ -320,14 +320,10 @@
     width: 50vw;
   }
 }
-@media (max-width: 393px) {
-  .junior-third {
-    height: 141vh;
-  }
-}
+
 @media (max-width: 390px) {
   .junior-third {
-    height: 143vh;
+    height: 157vh;
   }
 }
 
