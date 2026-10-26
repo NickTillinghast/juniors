@@ -1,8 +1,19 @@
+/* Brand colors — use these instead of one-off values */
+:root {
+  --jbp-black: #111;
+  --jbp-white: #fff;
+  --jbp-red: #aa3627;
+  --jbp-red-dark: #8c2a1e;
+  --jbp-text: #222;
+  --jbp-text-muted: #444;
+  --jbp-gray-light: #e2e2e2;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  background-color: var(--jbp-white);
+  color: var(--jbp-text);
+  font-family: "Ledger", Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +21,57 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Shared button — every call to action on the site uses this.
+   .button--light sits on dark photos, .button--dark on light backgrounds. */
+.button {
+  display: inline-block;
+  padding: 0.85em 2.2em;
+  border: 2px solid currentColor;
+  background-color: transparent;
+  font-family: "Ledger", Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s,
+    transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-2px);
+}
+
+.button--light {
+  color: var(--jbp-white);
+}
+
+.button--light:hover,
+.button--light:focus-visible {
+  background-color: var(--jbp-white);
+  border-color: var(--jbp-white);
+  color: var(--jbp-red);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.35);
+}
+
+.button--dark {
+  color: var(--jbp-black);
+}
+
+.button--dark:hover,
+.button--dark:focus-visible {
+  background-color: var(--jbp-red);
+  border-color: var(--jbp-red);
+  color: var(--jbp-white);
+  box-shadow: 0 6px 20px rgba(170, 54, 39, 0.35);
+}
+
+@media (max-width: 414px) {
+  .button {
+    font-size: 16px;
+    padding: 0.8em 1.6em;
+  }
 }

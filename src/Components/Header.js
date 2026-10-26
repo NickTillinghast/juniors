@@ -47,7 +47,7 @@ export default class Header extends Component {
                 className="menu-items"
                 to="/"
               >
-                <img className="logo" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082702/juniors/yiqb0xw6owx1uspyprnu.png" alt="none" />
+                <img className="logo" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082702/juniors/yiqb0xw6owx1uspyprnu.png" alt="Junior's Barber Parlor — home" />
               </Link>
             </div>
           </div>

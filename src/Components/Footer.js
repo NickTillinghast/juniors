@@ -5,48 +5,41 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="social-links">
-        {/* <div> */}
-        <a href="https://www.facebook.com/juniorsbarberparlor" target="_blank" rel="noopener noreferrer">
-          <FaFacebookF size={40} style={{ color: "gray" }} />
+        <a className="social-icon" href="https://www.facebook.com/juniorsbarberparlor" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <FaFacebookF size={32} />
         </a>
-        {/* </div> */}
-        {/* <div> */}
-        <a className='footer-booking-link' href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book Now</a>
-
-        {/* </div> */}
-        {/* <div> */}
-        <a href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">
-          <FaInstagram size={40} style={{ color: "gray" }} />
+        <a className="button button--dark" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book Now</a>
+        <a className="social-icon" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <FaInstagram size={32} />
         </a>
-        {/* </div> */}
       </div>
-      <div className="footer-main" >
+      <div className="footer-main">
         <div className="footer-info">
-          <h1>Juniors Barber Parlor</h1>
-          <p>Located at 5324 N 7th Ave, Phoenix, AZ 85013</p>
+          <h2>Visit</h2>
+          <p>Juniors Barber Parlor</p>
+          <p>5324 N 7th Ave, Phoenix, AZ 85013</p>
           <p>Northwest side of 7th Ave and Missouri</p>
         </div>
         <div className="footer-info">
-          {/* <a className='footer-booking-link' href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book Now</a> */}
-          <p>phone: <a className="phone" href="tel:6022740000" >(602) 274-0000</a></p>
-          <a className="phone" href="https://www.yelp.com/biz/juniors-barber-parlor-phoenix" target="_blank" rel="noopener noreferrer">Check out our awesome reviews on Yelp</a>
-        </div>
-
-        <div className="footer-info">
-          <h3>Hours</h3>
-          <p>Sunday Closed</p>
-          <p>Monday Closed</p>
-          <p>Tuesday 9am-6pm</p>
+          <h2>Contact</h2>
+          <p><a className="footer-link" href="tel:6022740000">(602) 274-0000</a></p>
+          <p><a className="footer-link" href="https://www.yelp.com/biz/juniors-barber-parlor-phoenix" target="_blank" rel="noopener noreferrer">Check out our reviews on Yelp</a></p>
         </div>
         <div className="footer-info">
-          <p> Wednesday 9am-6pm</p>
-          <p>Thursday 9am-6pm</p>
-          <p>Friday 9am-6pm</p>
-          <p>Saturday 8am-4pm</p>
+          <h2>Hours</h2>
+          <dl className="hours">
+            <dt>Sunday</dt><dd>Closed</dd>
+            <dt>Monday</dt><dd>Closed</dd>
+            <dt>Tuesday</dt><dd>9am–6pm</dd>
+            <dt>Wednesday</dt><dd>9am–6pm</dd>
+            <dt>Thursday</dt><dd>9am–6pm</dd>
+            <dt>Friday</dt><dd>9am–6pm</dd>
+            <dt>Saturday</dt><dd>8am–4pm</dd>
+          </dl>
         </div>
       </div>
-    </div >
+    </footer>
   );
 }
