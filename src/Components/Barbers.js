@@ -11,7 +11,7 @@ export default function Barbers() {
             <div className="barbers-inner">
               <h1 className="barb-h1">We Are Family</h1>
               <h2 className="barb-h2">I Hire only the Best</h2>
-              <p className="barbers-box"><a className="instagram" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">check out our cuts</a></p>
+              <p className="barbers-box"><a className="instagram" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">check out our cuts</a></p>
             </div>
           </div>
         </div>
@@ -28,8 +28,8 @@ export default function Barbers() {
           </div>
           <h1 className="junior-name">Junior</h1>
           <h2 className="junior-text">
-            We specialize in consistency, quality haircuts. when you make a appointment your paying for
-            your convenience. (No wait time) We take pride in what we do. Our work speaks for itself!  Passion ,vision ,perfection , consistency, conveniency haircuts.  That's what juniors is all about , quality haircut with quality time.  We guarantee you'll get your money's worth! Trust us!
+            We specialize in consistent, quality haircuts. When you make an appointment, you're paying for
+            your convenience. (No wait time) We take pride in what we do. Our work speaks for itself!  Passion, vision, perfection, consistency, convenience.  That's what Juniors is all about: quality haircuts with quality time.  We guarantee you'll get your money's worth! Trust us!
           </h2>
           <div className="juniors-work">
             {/* <div>

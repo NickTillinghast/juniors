@@ -26,7 +26,7 @@ class MapContainer extends Component {
                     <div>
                         <div className="location-text">
                             <h1>Juniors Barber Parlor</h1>
-                            <p>We are located in MidTown Phoenix just North of Missouri and 7th Ave</p>
+                            <p>We are located in Midtown Phoenix just north of Missouri and 7th Ave</p>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ class MapContainer extends Component {
                             <h1>Book an Appointment</h1>
                             <p><a className="phone-map" href="tel:6022740000" >(602) 274-0000</a></p>
                             <h1>Connect with Us</h1>
-                            <p> <a className="phone-map" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="blank">
+                            <p> <a className="phone-map" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">
                                 @juniorsbarberparlor
                             </a></p>
                         </div>
