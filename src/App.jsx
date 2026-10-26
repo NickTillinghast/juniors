@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import routes from "./routes";
-import { Switch } from 'react-router-dom';
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
@@ -14,9 +13,7 @@ class App extends Component {
       <div className="App">
         <ScrollToTop />
         <Header />
-        <Switch >
-          {routes}
-        </Switch>
+        {routes}
         <Footer />
 
       </div>
