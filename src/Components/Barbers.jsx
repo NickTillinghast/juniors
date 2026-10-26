@@ -5,16 +5,10 @@ import "./Barbers.css";
 export default function Barbers() {
   return (
     <div className="barbers-main">
-      <div className="barber-land">
-        <div className="barbers-first">
-          <div>
-            <div className="barbers-inner">
-              <h1 className="barb-h1">We Are Family</h1>
-              <h2 className="barb-h2">I Hire only the Best</h2>
-              <a className="button button--light" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">Check Out Our Cuts</a>
-            </div>
-          </div>
-        </div>
+      <div className="hero barbers-hero">
+        <h1 className="hero__title">We Are Family</h1>
+        <p className="hero__subtitle">I Hire only the Best</p>
+        <a className="button button--light" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">Check Out Our Cuts</a>
       </div>
       <div>
         <div className="set-barbers-0">

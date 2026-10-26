@@ -4,14 +4,10 @@ import "./Services.css";
 export default function Services() {
   return (
     <div>
-      <div className="services-main">
-        <div className="services-inner">
-          <div className="title">Services</div>
-          <div>We stand by our quality of work</div>
-
-          <a className="button button--light" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book With Us</a>
-
-        </div>
+      <div className="hero services-hero">
+        <h1 className="hero__title">Services</h1>
+        <p className="hero__subtitle">We stand by our quality of work</p>
+        <a className="button button--light" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book With Us</a>
       </div>
       <div>
         <div>

@@ -75,3 +75,41 @@ code {
     padding: 0.8em 1.6em;
   }
 }
+
+/* Shared page hero — photo banner with a centered title, subtitle and button.
+   Each page sets only its own background-image. */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 70vh;
+  padding: 3em 1.5em;
+  text-align: center;
+  color: var(--jbp-white);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__title {
+  max-width: 14em;
+  margin: 0 0 0.3em;
+  font-family: "Ledger", Georgia, serif;
+  font-size: clamp(2.1rem, 6vw, 3.75rem);
+  line-height: 1.2;
+}
+
+.hero__subtitle {
+  margin: 0 0 1.6em;
+  font-family: "Ledger", Georgia, serif;
+  font-size: clamp(1.15rem, 2.5vw, 1.7rem);
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
+}

@@ -6,9 +6,9 @@
   width: 100%;
   -webkit-animation: fadein 0.5s;
 }
-.barber-land {
-  display: flex;
-  justify-content: space-evenly;
+.barbers-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1584594748/juniors/zzfmwglvzqnlqp1alme2.jpg);
 }
 @keyframes fadein {
   from {
@@ -17,12 +17,6 @@
   to {
     opacity: 1;
   }
-}
-.barbers-first {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .juniors-image {
   width: 60%;
@@ -130,43 +124,7 @@
   padding: 3em 0;
   background-color: rgb(255, 255, 255);
 }
-.barber-land {
-  height: 80vh;
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1584594748/juniors/zzfmwglvzqnlqp1alme2.jpg);
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.barbers-inner {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 50%;
-  color: white;
-  font-size: 30px;
-}
-.barb-h2 {
-  font-size: 1em;
-  font-family: "Ledger", serif;
-}
-.barb-h1 {
-  font-size: 2em;
-  font-family: "Ledger", serif;
-}
 @media (max-width: 1024px) {
-  .barber-land {
-    height: 70vh;
-  }
-  .barb-h1 {
-    font-size: 1.6em;
-  }
-  .barb-h2 {
-    font-size: 0.7em;
-  }
   .barbers-adj-div {
     display: flex;
     flex-direction: column;
@@ -179,21 +137,12 @@
 }
 
 @media (max-width: 768px) {
-  .barber-land {
-    height: 65vh;
-  }
 
   .juniors-image {
     width: 75%;
   }
 }
 @media (max-width: 414px) {
-  .barb-h1 {
-    font-size: 0.8em;
-  }
-  .barb-h2 {
-    font-size: 0.6em;
-  }
   .barbers-main .junior-text {
     font-size: 0.8em;
   }

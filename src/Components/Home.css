@@ -9,47 +9,22 @@
     opacity: 1;
   }
 }
+.home-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/dqpatwz6c/image/upload/v1601956791/juniors/hplbcpb7nlkiv9mbpucs.jpg");
+}
 .instaFB {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 0.6em;
 }
-.home-junior-div {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 64vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("https://res.cloudinary.com/dqpatwz6c/image/upload/v1601956791/juniors/hplbcpb7nlkiv9mbpucs.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  color: rgba(255, 255, 255, 0.76);
-}
 .home-logo-div {
   background-color: rgb(44, 44, 44);
   width: 100%;
 }
-.home-title {
-  width: 55vw;
-  font-size: 60px;
-  font-family: "Ledger", serif;
-}
-.home-title-2 {
-  font-size: 1.7em;
-  font-family: "Ledger", serif;
-  margin-bottom: 20px;
-}
 /* .home-main-text {
   margin-top: 8em;
 } */
-.home-title-sub {
-  font-size: 2em;
-}
-.home-main-title {
-  margin: 70px auto;
-}
 .junior-image {
   height: 100%;
 }
@@ -154,23 +129,8 @@
   justify-content: space-between;
   width: 93vw;
 }
-.btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-@media (max-width: 1400px) {
-  .home-title {
-    font-size: 3em;
-  }
-}
 
 @media (max-width: 1024px) {
-  .home-title {
-    width: 65vw;
-    font-size: 35px;
-  }
   .home-middle-text-h1 {
     font-size: 30px;
     letter-spacing: 0.1em;
@@ -223,10 +183,6 @@
   }
 }
 @media (max-width: 414px) {
-  .home-title {
-    font-size: 35px;
-    width: 80vw;
-  }
   .home-middle-text-h1 {
     font-size: 1.5em;
   }
@@ -254,28 +210,14 @@
   .junior-name {
     font-size: 25px;
   }
-  .home-junior-div {
-    height: 60vh;
-  }
 }
 @media (max-width: 320px) {
-  .home-junior-div {
-    background-size: auto;
-  }
-  .home-junior-div {
-    height: 100vh;
-    background-position: cover;
-  }
   .home-middle-text-h1 {
     letter-spacing: 0em;
     padding: 0px;
     line-height: 1.8;
     width: 80vw;
     font-size: 1.7em;
-  }
-  .home-title {
-    width: 50vw;
-    font-size: 35px;
   }
 
   .home-middle-text {
