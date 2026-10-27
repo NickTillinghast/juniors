@@ -6,17 +6,13 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home-main">
-      <div className="home-junior-div" >
-        <div className="home-main-title">
-          <h1 className="home-title">Junior's Barber Parlor</h1>
-          <h3 className="home-title-2">since 2016</h3>
-          <div className="btn-container">
-            <a className="btn-brown" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">BOOK NOW</a>
-          </div>
-        </div>
+      <div className="hero home-hero">
+        <h1 className="hero__title">Junior's Barber Parlor</h1>
+        <p className="hero__subtitle">since 2016</p>
+        <a className="button button--light" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book Now</a>
       </div>
       <div className="home-second">
-        <h1 className="home-middle-text-h1">Specializing in Traditional Men's Haircuts</h1>
+        <h2 className="home-middle-text-h1">Specializing in Traditional Men's Haircuts</h2>
         <p className="home-middle-text">
           Juniors is a classic barbershop midtown in Phoenix, specializing in traditional men's haircuts such as pompadours, flat tops, and executive contours. We also offer hot towel shaves, beard trims, and carry premium grooming products for all of your needs.
         </p>
@@ -26,10 +22,10 @@ export default function Home() {
           <div className="junior-name">Junior</div>
           <div className="parlor-pics">
             <div className="junior-pic">
-              <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590652/juniors/nwkzuve0xar5mlzzejje.jpg" alt="none" />
+              <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590652/juniors/nwkzuve0xar5mlzzejje.jpg" alt="Junior giving a haircut" />
             </div>
             <div className="junior-pic">
-              <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590661/juniors/ireeuaprkby3ovaynzdm.jpg" alt="none" />
+              <img className="shop-image" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1584590661/juniors/ireeuaprkby3ovaynzdm.jpg" alt="Junior giving a beard trim" />
             </div>
           </div>
           <h2 className="junior-text">
@@ -50,8 +46,6 @@ export default function Home() {
             <iframe
               title="youtube"
               src="https://www.youtube.com/embed/ZzAiLtsXbOE"
-              alt="none"
-
             /> <p className="iframe-inner-txt2">It's not just great cuts, it's a great experience</p>
           </div>
         </div>

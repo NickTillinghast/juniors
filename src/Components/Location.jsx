@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import './Location.css';
 
 
-class MapContainer extends Component {
+export default class Location extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -14,10 +13,6 @@ class MapContainer extends Component {
 
     render() {
 
-        const mapStyles = {
-            width: '70%',
-            height: '70%',
-        }
 
 
         return <div>
@@ -33,11 +28,11 @@ class MapContainer extends Component {
                 <div>
                     <div className="map-info">
                         <div className='info-div'>
-                            <h1>Our Address </h1>
+                            <h2>Our Address</h2>
                             <p>5324 N 7th Ave, Phoenix, AZ 85013</p>
-                            <h1>Book an Appointment</h1>
+                            <h2>Book an Appointment</h2>
                             <p><a className="phone-map" href="tel:6022740000" >(602) 274-0000</a></p>
-                            <h1>Connect with Us</h1>
+                            <h2>Connect with Us</h2>
                             <p> <a className="phone-map" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">
                                 @juniorsbarberparlor
                             </a></p>
@@ -45,12 +40,12 @@ class MapContainer extends Component {
                         <div className='map-div'>
 
                             <div >
-                                <Map className="map-component"
-                                    google={this.props.google}
-                                    zoom={8}
-                                    style={mapStyles}
-                                    initialCenter={{ lat: 33.4484, lng: -112.0740 }}>
-                                    <Marker position={{ lat: 33.5157, lng: -112.0828 }} /></Map>
+                                <iframe
+                                    className="map-embed"
+                                    title="Map to Juniors Barber Parlor"
+                                    src="https://maps.google.com/maps?q=5324%20N%207th%20Ave%2C%20Phoenix%2C%20AZ%2085013&z=15&output=embed"
+                                    loading="lazy"
+                                />
                             </div>
                         </div>
                     </div>
@@ -59,7 +54,3 @@ class MapContainer extends Component {
         </div>
     }
 }
-export default GoogleApiWrapper({
-    apiKey: (process.env.REACT_APP_GOOGLE_API_KEY)
-}
-)(MapContainer)

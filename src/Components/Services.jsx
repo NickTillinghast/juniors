@@ -4,14 +4,10 @@ import "./Services.css";
 export default function Services() {
   return (
     <div>
-      <div className="services-main">
-        <div className="services-inner">
-          <div className="title">Services</div>
-          <div>We stand by our quality of work</div>
-
-          <p className="services-box"><a className="services-phone" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book With Us</a></p>
-
-        </div>
+      <div className="hero services-hero">
+        <h1 className="hero__title">Services</h1>
+        <p className="hero__subtitle">We stand by our quality of work</p>
+        <a className="button button--light" href="https://squareup.com/appointments/book/o8m0jbj28qhofw/Y4XZ4EM2MHW86/start" target="_blank" rel="noopener noreferrer">Book With Us</a>
       </div>
       <div>
         <div>
@@ -37,10 +33,10 @@ export default function Services() {
           </div>
           <div className="appointments-div">
             <div className="appointments">
-              <h1>Appointment Policies</h1>
+              <h2>Appointment Policies</h2>
               <p>We request 24-hour notice to cancel or reschedule your appointment.
                 If you no-call/no-show for your appointment, the full cost of services is required.</p>
-              <h1>Appointments</h1>
+              <h2>Appointments</h2>
               <p>We know that life can be busy so we welcome appointments by phone for those who like to plan.  We also know that sometimes you get the idea of getting a cut on the fly so Juniors Barber Parlor also welcomes walk-in customers.  </p>
             </div>
 

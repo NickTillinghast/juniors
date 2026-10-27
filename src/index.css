@@ -1,8 +1,19 @@
+/* Brand colors — use these instead of one-off values */
+:root {
+  --jbp-black: #111;
+  --jbp-white: #fff;
+  --jbp-red: #aa3627;
+  --jbp-red-dark: #8c2a1e;
+  --jbp-text: #222;
+  --jbp-text-muted: #444;
+  --jbp-gray-light: #e2e2e2;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  background-color: var(--jbp-white);
+  color: var(--jbp-text);
+  font-family: "Ledger", Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +21,95 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Shared button — every call to action on the site uses this.
+   .button--light sits on dark photos, .button--dark on light backgrounds. */
+.button {
+  display: inline-block;
+  padding: 0.85em 2.2em;
+  border: 2px solid currentColor;
+  background-color: transparent;
+  font-family: "Ledger", Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s,
+    transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-2px);
+}
+
+.button--light {
+  color: var(--jbp-white);
+}
+
+.button--light:hover,
+.button--light:focus-visible {
+  background-color: var(--jbp-white);
+  border-color: var(--jbp-white);
+  color: var(--jbp-red);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.35);
+}
+
+.button--dark {
+  color: var(--jbp-black);
+}
+
+.button--dark:hover,
+.button--dark:focus-visible {
+  background-color: var(--jbp-red);
+  border-color: var(--jbp-red);
+  color: var(--jbp-white);
+  box-shadow: 0 6px 20px rgba(170, 54, 39, 0.35);
+}
+
+@media (max-width: 414px) {
+  .button {
+    font-size: 16px;
+    padding: 0.8em 1.6em;
+  }
+}
+
+/* Shared page hero — photo banner with a centered title, subtitle and button.
+   Each page sets only its own background-image. */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 70vh;
+  padding: 3em 1.5em;
+  text-align: center;
+  color: var(--jbp-white);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__title {
+  max-width: 14em;
+  margin: 0 0 0.3em;
+  font-family: "Ledger", Georgia, serif;
+  font-size: clamp(2.1rem, 6vw, 3.75rem);
+  line-height: 1.2;
+}
+
+.hero__subtitle {
+  margin: 0 0 1.6em;
+  font-family: "Ledger", Georgia, serif;
+  font-size: clamp(1.15rem, 2.5vw, 1.7rem);
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
 }
