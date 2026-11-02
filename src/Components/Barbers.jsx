@@ -66,8 +66,8 @@ export default function Barbers() {
         <div className="container">
           <div className="about-gallery">
             <figure>
-              <img src="https://res.cloudinary.com/dqpatwz6c/image/upload/w_900,f_auto,q_auto/v1585082713/juniors/qth1f6l6j43o8p3hprlo.jpg" alt="Inside Juniors Barber Parlor" loading="lazy" />
-              <figcaption>Inside the shop</figcaption>
+              <img src="https://res.cloudinary.com/dqpatwz6c/image/upload/w_900,f_auto,q_auto/v1585082713/juniors/qth1f6l6j43o8p3hprlo.jpg" alt="Junior standing in front of the Juniors Barber Parlor window" loading="lazy" />
+              <figcaption>Junior out front of the shop</figcaption>
             </figure>
             <figure>
               <img src="https://res.cloudinary.com/dqpatwz6c/image/upload/w_900,f_auto,q_auto/v1584593549/juniors/jxfnzay4mavyjhoqbjsq.jpg" alt="Grid of haircuts by Juniors Barber Parlor" loading="lazy" />
