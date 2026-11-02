@@ -20,6 +20,22 @@ const values = [
   },
 ];
 
+const cloudinary = (path, width) =>
+  `https://res.cloudinary.com/dqpatwz6c/image/upload/w_${width},f_auto,q_auto/${path}`;
+
+// Add a name to show it under that person's photo
+const team = [
+  { photo: "v1585082715/juniors/syrbsifmfjdtx8qm6myi.jpg", name: "" },
+  { photo: "v1585082714/juniors/vzj4b8vfircqanfswyl5.jpg", name: "" },
+  { photo: "v1585082714/juniors/nbj7p8w3wilmnduda6uy.jpg", name: "" },
+];
+
+const gallery = [
+  { photo: "v1584590655/juniors/iltwtmu7sc1djpd30wxk.jpg", alt: "Junior cutting hair inside the shop, with a leather bench and sports on the TV", caption: "Inside the shop" },
+  { photo: "v1584590665/juniors/v2psychoymbg0pqqaddm.jpg", alt: "Junior at work in front of the shop's wall of vintage signs", caption: "Old school, all the way" },
+  { photo: "v1584593549/juniors/jxfnzay4mavyjhoqbjsq.jpg", alt: "Grid of haircuts by Juniors Barber Parlor", caption: "A few of our cuts" },
+];
+
 export default function Barbers() {
   return (
     <div className="page">
@@ -49,6 +65,20 @@ export default function Barbers() {
 
       <section className="section section--alt">
         <div className="container">
+          <h2>The Family</h2>
+          <div className="team">
+            {team.map(({ photo, name }) => (
+              <figure key={photo}>
+                <img src={cloudinary(photo, 600)} alt={name || "Member of the Juniors Barber Parlor team"} loading="lazy" />
+                {name && <figcaption>{name}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
           <h2>The Juniors Way</h2>
           <div className="values">
             {values.map(({ icon: Icon, title, text }) => (
@@ -62,17 +92,15 @@ export default function Barbers() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section--alt">
         <div className="container">
           <div className="about-gallery">
-            <figure>
-              <img src="https://res.cloudinary.com/dqpatwz6c/image/upload/w_900,f_auto,q_auto/v1585082713/juniors/qth1f6l6j43o8p3hprlo.jpg" alt="Junior standing in front of the Juniors Barber Parlor window" loading="lazy" />
-              <figcaption>Junior out front of the shop</figcaption>
-            </figure>
-            <figure>
-              <img src="https://res.cloudinary.com/dqpatwz6c/image/upload/w_900,f_auto,q_auto/v1584593549/juniors/jxfnzay4mavyjhoqbjsq.jpg" alt="Grid of haircuts by Juniors Barber Parlor" loading="lazy" />
-              <figcaption>A few of our cuts</figcaption>
-            </figure>
+            {gallery.map(({ photo, alt, caption }) => (
+              <figure key={photo}>
+                <img src={cloudinary(photo, 800)} alt={alt} loading="lazy" />
+                <figcaption>{caption}</figcaption>
+              </figure>
+            ))}
           </div>
           <a className="button button--dark" href="https://www.instagram.com/juniorsbarberparlor/?hl=en" target="_blank" rel="noopener noreferrer">See More on Instagram</a>
         </div>
