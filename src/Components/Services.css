@@ -1,100 +1,37 @@
 .services-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082718/juniors/yo5l1iotwtqxn5vxoyyd.jpg);
+    url(https://res.cloudinary.com/dqpatwz6c/image/upload/w_1920,f_auto,q_auto/v1585082718/juniors/yo5l1iotwtqxn5vxoyyd.jpg);
   background-position: bottom;
-  -webkit-animation: fadein 1s;
 }
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+
+/* Two columns of "Service ....... $Price" rows */
+.price-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 4rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 0;
+  list-style: none;
+  text-align: left;
 }
+
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px dotted #bbb;
+}
+
 .house-call {
-  display: flex;
-  justify-content: center;
-
-  font-size: 1.3em;
-  padding: 0 1em;
-  color: #555;
+  margin: 0;
+  font-style: italic;
+  color: var(--jbp-text-muted);
 }
 
-.services-list {
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.7em;
-  font-family: "Ledger", serif;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.5em 0 1em;
-  color: #333;
-}
-.services-list-a > div {
-  padding: 10px;
-}
-.services-list-a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.services-list-b {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.services-list-b > div {
-  padding: 10px;
-}
-.appointments {
-  width: 50%;
-  padding: 30px;
-}
-.appointments-div {
-  display: flex;
-  justify-content: center;
-  font-size: 1.1em;
-  letter-spacing: 0.1em;
-  color: #444;
-  font-family: "Ledger", serif;
-}
-.services-div {
-  color: #222;
-  font-family: "Ledger", serif;
-}
-@media (max-width: 1024px) {
-  .services-list {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 414px) {
-  .services-list {
-    font-size: 1em;
-  }
-  .house-call {
-    font-size: 1em;
-  }
-  .appointments-div {
-    font-size: 1em;
-  }
-  .appointments > h2 {
-    font-size: 1.3em;
-  }
-  .appointments {
-    width: 75%;
-  }
-}
-
-@media (max-width: 375px) {
-  .services-list {
-    padding: 1em;
-  }
-}
-
-@media (max-width: 320px) {
-  .services-list {
-    font-size: 0.8em;
+@media (max-width: 640px) {
+  .price-list {
+    grid-template-columns: 1fr;
   }
 }

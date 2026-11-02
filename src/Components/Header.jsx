@@ -1,122 +1,59 @@
-import React, { Component } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 import "./Header.css";
-import { Link } from "react-router-dom";
 
-export default class Header extends Component {
-  constructor(props) {
-    super(props);
+const links = [
+  { to: "/", label: "Home" },
+  { to: "/Barbers", label: "About" },
+  { to: "/Services", label: "Services" },
+  { to: "/Location", label: "Location" },
+];
 
-    this.state = {
-      navBar: false
+export default function Header() {
+  const [open, setOpen] = useState(false);
+  const headerRef = useRef(null);
+
+  // Close the mobile menu when tapping anywhere outside the header
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (headerRef.current && !headerRef.current.contains(event.target)) {
+        setOpen(false);
+      }
     };
-  }
-  componentDidMount() {
-    document.addEventListener("mousedown", this.handleClickOutside);
-  }
-  componentWillUnmount() {
-    document.removeEventListener("mousedown", this.handleClickOutside);
-  }
-  headerMain = React.createRef();
-  handleButtonClick = () => {
-    this.setState(() => {
-      return {
-        navBar: true,
-      };
-    });
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
-  };
+  const close = () => setOpen(false);
 
-  handleClickOutside = event => {
-    if (this.headerMain.current && !this.headerMain.current.contains(event.target)) {
-      this.setState({
-        navBar: false,
-      });
-    }
-  };
-
-
-  render() {
-    return (
-      <div className="headerMain" ref={this.headerMain}>
-        <div className="header">
-          <div>
-            <div className="logo-div">
-              <Link
-                onClick={() => this.setState({ navBar: !this.state.navBar })}
-                className="menu-items"
-                to="/"
-              >
-                <img className="logo" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1585082702/juniors/yiqb0xw6owx1uspyprnu.png" alt="Junior's Barber Parlor — home" />
-              </Link>
-            </div>
-          </div>
-          {/* <div> */}
-
-          <div className="myTopnav">
-            <div
-              className={
-                this.state.navBar ? "navbar-toggle " : "navbar-toggle hidden"
-              }
-            >
-              <ul className="tabs">
-                {/* <div> */}
-                <div className="menu">
-                  <div className="menu-items">
-                    <Link
-                      onClick={() => this.setState({ navBar: !this.state.navBar })}
-                      className="menu-items"
-                      to="/"
-                    >
-                      Home
-                    </Link>
-                  </div>
-                  <div className="menu-items">
-                    <Link
-                      onClick={() => this.setState({ navBar: !this.state.navBar })}
-                      className="menu-items"
-                      to="/Barbers"
-                    >
-                      About
-                    </Link>
-                  </div>
-                  <div className="menu-items">
-                    <Link
-                      onClick={() => this.setState({ navBar: !this.state.navBar })}
-                      className="menu-items"
-                      to="/Services"
-                    >
-                      Services
-                    </Link>
-                  </div>
-                  <div className="menu-items">
-                    <Link
-                      onClick={() => this.setState({ navBar: !this.state.navBar })}
-                      className="menu-items"
-                      to="/Location"
-                    >
-                      Location
-                    </Link>
-                  </div>
-                </div>
-                {/* </div> */}
-              </ul>
-            </div>
-            <div>
-              <div
-                onClick={() => this.setState({ navBar: !this.state.navBar })}
-                className="burger"
-              >
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
-              </div>
-            </div>
-          </div>
-          {/* </div> */}
-        </div>
-      </div>
-
-    );
-  }
+  return (
+    <header className="site-header" ref={headerRef}>
+      <Link to="/" onClick={close}>
+        <img
+          className="site-header__logo"
+          src="https://res.cloudinary.com/dqpatwz6c/image/upload/h_160,f_auto,q_auto/v1585082702/juniors/yiqb0xw6owx1uspyprnu.png"
+          alt="Junior's Barber Parlor — home"
+        />
+      </Link>
+      <button
+        className="burger"
+        aria-label="Menu"
+        aria-expanded={open}
+        aria-controls="site-nav"
+        onClick={() => setOpen(!open)}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+      <nav id="site-nav" className={open ? "site-nav site-nav--open" : "site-nav"}>
+        {links.map(({ to, label }) => (
+          <NavLink key={to} to={to} end onClick={close} className="site-nav__link">
+            {label}
+          </NavLink>
+        ))}
+      </nav>
+    </header>
+  );
 }
